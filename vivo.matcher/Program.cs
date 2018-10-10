@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace vivo.matcher
+namespace vivo
 {
 	class MainClass
 	{

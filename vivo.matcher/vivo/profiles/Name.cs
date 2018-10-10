@@ -23,7 +23,7 @@ namespace vivo.profiles
 
 		protected string PrepareForCompare(string v)
 		{
-			return (new string(v.Where(c => !char.IsPunctuation(c)).ToArray())).ToLower();
+			return (new string(v.Whexre(c => !char.IsPunctuation(c)).ToArray())).ToLower();
 
 		}
 
