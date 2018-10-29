@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+
 namespace vivo.profiles
 {
 	public class Name
@@ -23,7 +25,7 @@ namespace vivo.profiles
 
 		protected string PrepareForCompare(string v)
 		{
-			return (new string(v.Whexre(c => !char.IsPunctuation(c)).ToArray())).ToLower();
+			return (new string(v.ToCharArray().Where(c => !char.IsPunctuation(c)).ToArray())).ToLower();
 
 		}
 
@@ -38,10 +40,7 @@ namespace vivo.profiles
 
 		public int similarity(Name test)
 		{
-			return 
-			string aFirst = First.ToLower();
-			string bFirst = 
-			return Fastenshtein.Levenshtein.Distance(First, test.First) + Fastenshtein.Levenshtein.Distance(Middle, test.Middle) + Fastenshtein.Levenshtein.Distance(Last, test.Last);
+			return FirstSimilarity(test) + MiddleSimilarity(test) + LastSimilarity(test);
 		}
 	}
 }
