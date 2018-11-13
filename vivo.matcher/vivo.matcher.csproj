@@ -61,6 +61,7 @@
     <Compile Include="vivo\profiles\ProfileList.cs" />
     <Compile Include="vivo\profiles\Profile.cs" />
     <Compile Include="vivo\profiles\Name.cs" />
+    <Compile Include="vivo\rdf\Harvest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -68,6 +69,7 @@
   <ItemGroup>
     <Folder Include="vivo\" />
     <Folder Include="vivo\profiles\" />
+    <Folder Include="vivo\rdf\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
