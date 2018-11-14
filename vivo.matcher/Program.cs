@@ -7,11 +7,10 @@ namespace vivo
 		public static void Main(string[] args)
 		{
 			// Load the RDF from the harvester
+			var rdf = vivo.rdf.Harvest.LoadFromXML(@"C:\Users\CMHantak\Desktop\harvest.rdf.xml");
 
 			// Get all the profiles
-
-			// 
-			Console.WriteLine("Hello World!");
+			rdf.Debug();
 		}
 	}
 }
