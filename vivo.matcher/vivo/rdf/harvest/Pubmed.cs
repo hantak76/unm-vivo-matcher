@@ -4,13 +4,13 @@ using System.Linq;
 using VDS.RDF;
 using VDS.RDF.Parsing;
 
-namespace vivo.rdf
+namespace vivo.rdf.harvest
 {
-	public class Harvest
+	public class Pubmed
 	{
 		protected IGraph Graph { get; set; }
-		
-		protected Harvest(IGraph g)
+
+		protected Pubmed(IGraph g)
 		{
 			Graph = g;
 		}
@@ -56,7 +56,7 @@ namespace vivo.rdf
 
 		public string GetLabel(INode node)
 		{
-			return GetObjLiteralValue(node, Graph.CreateUriNode(@"rdfs:label")); 
+			return GetObjLiteralValue(node, Graph.CreateUriNode(@"rdfs:label"));
 		}
 
 		public string GetDocumentTitle(INode node)

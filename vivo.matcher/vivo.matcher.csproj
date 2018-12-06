@@ -62,6 +62,13 @@
     <Compile Include="vivo\profiles\Profile.cs" />
     <Compile Include="vivo\profiles\Name.cs" />
     <Compile Include="vivo\rdf\Harvest.cs" />
+    <Compile Include="vivo\rdf\DocumentList.cs" />
+    <Compile Include="vivo\rdf\HarvestDocuments.cs" />
+    <Compile Include="vivo\rdf\harvest\Pubmed.cs" />
+    <Compile Include="vivo\rdf\harvest\Document.cs" />
+    <Compile Include="vivo\rdf\harvest\Authorship.cs" />
+    <Compile Include="vivo\rdf\harvest\Author.cs" />
+    <Compile Include="vivo\rdf\harvest\HarvestNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -70,6 +77,7 @@
     <Folder Include="vivo\" />
     <Folder Include="vivo\profiles\" />
     <Folder Include="vivo\rdf\" />
+    <Folder Include="vivo\rdf\harvest\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
