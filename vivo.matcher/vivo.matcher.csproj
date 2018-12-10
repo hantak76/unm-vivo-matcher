@@ -61,8 +61,6 @@
     <Compile Include="vivo\profiles\ProfileList.cs" />
     <Compile Include="vivo\profiles\Profile.cs" />
     <Compile Include="vivo\profiles\Name.cs" />
-    <Compile Include="vivo\rdf\Harvest.cs" />
-    <Compile Include="vivo\rdf\HarvestDocuments.cs" />
     <Compile Include="vivo\rdf\harvest\Pubmed.cs" />
     <Compile Include="vivo\rdf\harvest\Document.cs" />
     <Compile Include="vivo\rdf\harvest\Authorship.cs" />

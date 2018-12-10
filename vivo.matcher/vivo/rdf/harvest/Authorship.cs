@@ -14,7 +14,7 @@ namespace vivo.rdf.harvest
 
 		protected INode LinkedAuthorNode {
 			get {
-				IUriNode authInAuthorship = CreateUriNode(@"j.3:authorInAuthorship");
+				IUriNode authInAuthorship = CreateUriNode(@"j.3:linkedAuthor");
 
 				var nodes = Node.Graph.GetTriplesWithSubjectPredicate(Node, authInAuthorship);
 

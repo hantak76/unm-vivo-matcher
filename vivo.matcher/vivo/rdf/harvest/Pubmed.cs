@@ -69,7 +69,7 @@ namespace vivo.rdf.harvest
 			get {
 				var r = new DocumentList();
 				foreach (var dTriple in DocumentTriples) {
-					r.Add(new Document(dTriple.Object));
+					r.Add(new Document(dTriple.Subject));
 				}
 				return r;
 			}

@@ -21,9 +21,10 @@ namespace vivo.rdf.harvest
 		protected IEnumerable<Triple> AuthorshipTriples
 		{
 			get {
-				IUriNode infoAuthorship = CreateUriNode(@"j.3:informationResourceInAuthorship");
-
-				return Node.Graph.GetTriplesWithSubjectPredicate(Node, infoAuthorship);
+				//IUriNode infoAuthorship = CreateUriNode(@"j.3:linkedInformationResource");
+				IUriNode linkedResource = CreateUriNode(@"j.3:linkedInformationResource");
+				return Node.Graph.GetTriplesWithPredicateObject(linkedResource, Node);
+				//return Node.Graph.GetTriplesWithSubjectPredicate(Node, infoAuthorship);
 			}
 		}
 
@@ -32,7 +33,7 @@ namespace vivo.rdf.harvest
 				var r = new AuthorshipList();
 
 				foreach (var aTriple in AuthorshipTriples) {
-					r.Add(new Authorship(aTriple.Object));
+					r.Add(new Authorship(aTriple.Subject));
 				}
 				return r;
 			}
