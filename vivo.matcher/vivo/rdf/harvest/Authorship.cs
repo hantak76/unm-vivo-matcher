@@ -6,15 +6,29 @@ using VDS.RDF.Parsing;
 
 namespace vivo.rdf.harvest
 {
-	public class Authorship
+	public class Authorship : GraphNode
 	{
-		protected INode Node { get; set; }
-
-		public Authorship(INode node)
+		public Authorship(INode node) : base(node)
 		{
-			Node = node;
 		}
 
+		protected INode LinkedAuthorNode {
+			get {
+				IUriNode authInAuthorship = CreateUriNode(@"j.3:authorInAuthorship");
 
+				var nodes = Node.Graph.GetTriplesWithSubjectPredicate(Node, authInAuthorship);
+
+				if (nodes.Count() == 0) return null;
+				if (nodes.Count() > 1) return null;
+
+				return nodes.ElementAt(0).Object;
+			}
+		}
+
+		public Author Author {
+			get {
+				return new Author(LinkedAuthorNode);
+			}
+		}
 	}
 }

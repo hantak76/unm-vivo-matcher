@@ -62,13 +62,14 @@
     <Compile Include="vivo\profiles\Profile.cs" />
     <Compile Include="vivo\profiles\Name.cs" />
     <Compile Include="vivo\rdf\Harvest.cs" />
-    <Compile Include="vivo\rdf\DocumentList.cs" />
     <Compile Include="vivo\rdf\HarvestDocuments.cs" />
     <Compile Include="vivo\rdf\harvest\Pubmed.cs" />
     <Compile Include="vivo\rdf\harvest\Document.cs" />
     <Compile Include="vivo\rdf\harvest\Authorship.cs" />
     <Compile Include="vivo\rdf\harvest\Author.cs" />
-    <Compile Include="vivo\rdf\harvest\HarvestNode.cs" />
+    <Compile Include="vivo\rdf\harvest\DocumentList.cs" />
+    <Compile Include="vivo\rdf\harvest\AuthorshipList.cs" />
+    <Compile Include="vivo\rdf\harvest\GraphNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

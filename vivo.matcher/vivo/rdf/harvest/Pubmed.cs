@@ -15,66 +15,7 @@ namespace vivo.rdf.harvest
 			Graph = g;
 		}
 
-		protected string GetObjLiteralValue(INode subj, INode pred)
-		{
-			return GetObjLiteralValue(Graph.GetTriplesWithSubjectPredicate(subj, pred));
-		}
-
-		protected string GetObjLiteralValue(IEnumerable<Triple> list)
-		{
-			if (list.Count() != 1) return null;
-
-			return GetObjLiteralValue(list.ElementAt(0));
-		}
-
-		protected string GetObjLiteralValue(Triple triple)
-		{
-			if (triple == null) return @"";
-
-			if (triple.Object.NodeType != NodeType.Literal) return null;
-			var literal = triple.Object as LiteralNode;
-
-			if (literal == null) return null;
-
-			return literal.Value;
-		}
-
-		public string GetFirstName(INode node)
-		{
-			return GetObjLiteralValue(node, Graph.CreateUriNode(@"j.4:firstName"));
-		}
-
-		public string GetLastName(INode node)
-		{
-			return GetObjLiteralValue(node, Graph.CreateUriNode(@"j.4:lastName"));
-		}
-
-		public string GetMiddleName(INode node)
-		{
-			return GetObjLiteralValue(node, Graph.CreateUriNode(@"j.3:middleName"));
-		}
-
-		public string GetLabel(INode node)
-		{
-			return GetObjLiteralValue(node, Graph.CreateUriNode(@"rdfs:label"));
-		}
-
-		public string GetDocumentTitle(INode node)
-		{
-			return GetObjLiteralValue(node, Graph.CreateUriNode(@"j.3:Title"));
-		}
-
-		public INode GetLinkedAuthor(INode node)
-		{
-			IUriNode authInAuthorship = Graph.CreateUriNode(@"j.3:authorInAuthorship");
-
-			var nodes = Graph.GetTriplesWithSubjectPredicate(node, authInAuthorship);
-
-			if (nodes.Count() == 0) return null;
-
-			return nodes.ElementAt(0).Object;
-		}
-
+		/*
 		protected IEnumerable<Triple> GetPeople()
 		{
 			IUriNode rdfType = Graph.CreateUriNode(@"rdf:type");
@@ -83,33 +24,26 @@ namespace vivo.rdf.harvest
 			return Graph.GetTriplesWithPredicateObject(rdfType, person);
 		}
 
-		protected IEnumerable<Triple> GetDocuments()
-		{
-			IUriNode rdfType = Graph.CreateUriNode(@"rdf:type");
-			IUriNode document = Graph.CreateUriNode(@"j.2:Document");
-
-			return Graph.GetTriplesWithPredicateObject(rdfType, document);
-		}
-
 		protected IEnumerable<Triple> GetAuthorshipsForDocument(INode node)
 		{
 			IUriNode infoAuthorship = Graph.CreateUriNode(@"j.3:informationResourceInAuthorship");
 
 			return Graph.GetTriplesWithSubjectPredicate(node, infoAuthorship);
 		}
+		*/
 
 		public void Debug()
 		{
-			foreach (Triple docTriple in GetDocuments()) {
-				var documentTitle = GetDocumentTitle(docTriple.Subject);
+			foreach (var doc in Documents) {
+				var docTitle = doc.Title;
 
-				Console.WriteLine("Document: " + documentTitle);
+				Console.WriteLine("Document: " + docTitle);
 
-				foreach (Triple authTriple in GetAuthorshipsForDocument(docTriple.Subject)) {
+				foreach (var authorship in doc.Authorships) {
 
-					var author = GetLinkedAuthor(authTriple.Object);
+					var author = authorship.Author;
 
-					var authorLabel = GetLabel(author);
+					var authorLabel = author.Label;
 
 					Console.WriteLine("\tAuthor: " + authorLabel);
 
@@ -121,14 +55,34 @@ namespace vivo.rdf.harvest
 			}
 		}
 
-		public static Harvest LoadFromXML(string filename)
+		protected IEnumerable<Triple> DocumentTriples
+		{	
+			get {
+				IUriNode rdfType = Graph.CreateUriNode(@"rdf:type");
+				IUriNode document = Graph.CreateUriNode(@"j.2:Document");
+
+				return Graph.GetTriplesWithPredicateObject(rdfType, document);
+			}
+		}
+
+		public DocumentList Documents {
+			get {
+				var r = new DocumentList();
+				foreach (var dTriple in DocumentTriples) {
+					r.Add(new Document(dTriple.Object));
+				}
+				return r;
+			}
+		}
+
+		public static Pubmed LoadFromXML(string filename)
 		{
 			RdfXmlParser xmlParser = new RdfXmlParser();
 			IGraph g = new Graph();
 
 			xmlParser.Load(g, filename);
 
-			return new Harvest(g);
+			return new Pubmed(g);
 		}
 	}
 }
