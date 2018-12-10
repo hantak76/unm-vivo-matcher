@@ -12,6 +12,11 @@ namespace vivo.rdf.harvest
 		{
 		}
 
+		public List<Triple> GetTriples()
+		{
+			return Node.Graph.GetTriplesWithSubject(Node).ToList();
+		}
+
 		public string FirstName {
 			get {
 				return GetObjLiteralValue(Node, CreateUriNode(@"j.4:firstName"));
@@ -29,5 +34,6 @@ namespace vivo.rdf.harvest
 				return GetObjLiteralValue(Node, CreateUriNode(@"j.3:middleName"));
 			}
 		}
+
 	}
 }

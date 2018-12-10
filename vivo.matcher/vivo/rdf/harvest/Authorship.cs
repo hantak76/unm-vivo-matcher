@@ -14,14 +14,16 @@ namespace vivo.rdf.harvest
 
 		protected INode LinkedAuthorNode {
 			get {
-				IUriNode authInAuthorship = CreateUriNode(@"j.3:linkedAuthor");
+				return LinkedAuthorTriple.Object;
+			}
+		}
 
-				var nodes = Node.Graph.GetTriplesWithSubjectPredicate(Node, authInAuthorship);
-
+		public Triple LinkedAuthorTriple {
+			get {
+				var nodes = Node.Graph.GetTriplesWithSubjectPredicate(Node, LinkedAuthorPredicate);
 				if (nodes.Count() == 0) return null;
 				if (nodes.Count() > 1) return null;
-
-				return nodes.ElementAt(0).Object;
+				return nodes.ElementAt(0);
 			}
 		}
 
@@ -29,6 +31,17 @@ namespace vivo.rdf.harvest
 			get {
 				return new Author(LinkedAuthorNode);
 			}
+		}
+
+		public void UpdateLinkedAuthor(string authorUri)
+		{
+			var t = new Triple(
+				Node,
+				LinkedAuthorPredicate,
+				CreateUriNode(UriFactory.Create(authorUri))
+			);
+
+			Node.Graph.Assert(t);
 		}
 	}
 }

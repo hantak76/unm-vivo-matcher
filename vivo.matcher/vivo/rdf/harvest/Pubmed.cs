@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using VDS.RDF;
 using VDS.RDF.Parsing;
+using VDS.RDF.Writing;
 
 namespace vivo.rdf.harvest
 {
@@ -32,7 +33,7 @@ namespace vivo.rdf.harvest
 		}
 		*/
 
-		public void Debug()
+		public void Debug(string outFilename)
 		{
 			foreach (var doc in Documents) {
 				var docTitle = doc.Title;
@@ -49,10 +50,21 @@ namespace vivo.rdf.harvest
 
 					if (authorLabel == @"Larson, Richard S") {
 						Console.WriteLine("\t\tReplacing " + authorLabel);
+						var triplesToRemove = new List<Triple>(author.GetTriples());
+						triplesToRemove.Add(authorship.LinkedAuthorTriple);
+
+						authorship.UpdateLinkedAuthor(@"http://vivo.health.unm.edu/individual/n6221");
+
+						Remove(triplesToRemove);
+
 					}
 				}
 				Console.WriteLine();
 			}
+
+			ExportNTriples(outFilename);
+
+
 		}
 
 		protected IEnumerable<Triple> DocumentTriples
@@ -75,6 +87,20 @@ namespace vivo.rdf.harvest
 			}
 		}
 
+		public void ExportRdf(string filename)
+		{
+			RdfXmlWriter writer = new RdfXmlWriter();
+
+			writer.Save(Graph, filename);
+		}
+
+		public void ExportNTriples(string filename)
+		{
+			var writer = new NTriplesWriter();
+			writer.Save(Graph, filename);
+		}
+
+
 		public static Pubmed LoadFromXML(string filename)
 		{
 			RdfXmlParser xmlParser = new RdfXmlParser();
@@ -83,6 +109,11 @@ namespace vivo.rdf.harvest
 			xmlParser.Load(g, filename);
 
 			return new Pubmed(g);
+		}
+
+		public bool Remove(List<Triple> triplesToRemove)
+		{
+			return Graph.Retract(triplesToRemove);
 		}
 	}
 }

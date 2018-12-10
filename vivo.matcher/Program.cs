@@ -10,7 +10,7 @@ namespace vivo
 			var harvest = vivo.rdf.harvest.Pubmed.LoadFromXML(@"/Users/hantak/Downloads/harvest.rdf.xml");
 
 			// Get all the profiles
-			harvest.Debug();
+			harvest.Debug(@"/Users/hantak/Downloads/harvest-output.rdf.xml");
 		}
 	}
 }

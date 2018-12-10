@@ -10,6 +10,14 @@ namespace vivo.rdf.harvest
 	{
 		protected INode Node { get; set; }
 
+		protected const string LinkedAuthorPredicateUri = @"j.3:linkedAuthor";
+
+		protected INode LinkedAuthorPredicate {
+			get {
+				return CreateUriNode(LinkedAuthorPredicateUri);
+			}
+		}
+
 		protected GraphNode(INode node)
 		{
 			Node = node;
@@ -18,6 +26,11 @@ namespace vivo.rdf.harvest
 		protected IUriNode CreateUriNode(string qname)
 		{
 			return Node.Graph.CreateUriNode(qname);
+		}
+
+		protected IUriNode CreateUriNode(System.Uri uri)
+		{
+			return Node.Graph.CreateUriNode(uri);
 		}
 
 		protected string GetObjLiteralValue(INode subj, INode pred)
