@@ -38,7 +38,7 @@ namespace vivo.profiles
 		public int MiddleSimilarity(Name test) { return Compare(Middle, test.Middle); }
 		public int LastSimilarity(Name test) { return Compare(Last, test.Last); }
 
-		public int similarity(Name test)
+		public int Similarity(Name test)
 		{
 			return FirstSimilarity(test) + MiddleSimilarity(test) + LastSimilarity(test);
 		}
