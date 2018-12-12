@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vivo.matcher", "vivo.matcher\vivo.matcher.csproj", "{9A8301E2-0574-4C17-B555-1C0DE08DB59C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{5A648EFD-B477-424C-A5A2-6D7F097E3AAF}"
+	ProjectSection(SolutionItems) = preProject
+		data\people.txt = data\people.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
