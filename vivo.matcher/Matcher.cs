@@ -18,13 +18,13 @@ namespace vivo
 
 		public void Process()
 		{
+			// Go through the harvest
 		}
 
 		public class ProgramOption
 		{
 			[Option('p', @"profiles", Required = true, HelpText = @"Profile List CSV")]
 			public string ProfileFilename { get; set; }
-
 
 			[Option('h', @"harvest", Required = true, HelpText = @"Input Harvest RDF")]
 			public string HarvestFilename { get; set; }
