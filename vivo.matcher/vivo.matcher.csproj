@@ -76,6 +76,7 @@
     <Compile Include="vivo\rdf\harvest\GraphNode.cs" />
     <Compile Include="Matcher.cs" />
     <Compile Include="vivo\profiles\ProfileMatch.cs" />
+    <Compile Include="vivo\utility\Individual.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -85,6 +86,7 @@
     <Folder Include="vivo\profiles\" />
     <Folder Include="vivo\rdf\" />
     <Folder Include="vivo\rdf\harvest\" />
+    <Folder Include="vivo\utility\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,5 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using CommandLine;
+
+using VDS.RDF;
+using VDS.RDF.Parsing;
+using VDS.RDF.Writing;
 
 namespace vivo
 {
@@ -16,11 +21,21 @@ namespace vivo
 			OutputHarvestFilename = outputFilename;
 		}
 
+
+
 		public void Process()
 		{
 			// Go through the harvest
 			foreach (var document in IncomingHarvest.Documents) {
 				foreach (var authorship in document.Authorships) {
+
+					// If there isn't an author, skip
+					if (authorship.Author == null)
+					{
+						Console.WriteLine("No author on authorship");
+						continue;
+					}
+
 					var match = Profiles.FindMatch(authorship.Author.Name);
 
 					if (match == null) {
@@ -30,10 +45,19 @@ namespace vivo
 
 					Console.WriteLine(@"Updating " + authorship.Author.LastName + @" to " + match.TargetProfile.Uri);
 
+					var triplesToRemove = new List<Triple>(authorship.Author.GetTriples());
+					triplesToRemove.Add(authorship.LinkedAuthorTriple);
+
 					authorship.UpdateLinkedAuthor(match.TargetProfile.Uri);
 
+					IncomingHarvest.Remove(triplesToRemove);
 				}
 			}
+
+
+			IncomingHarvest.UpdateToISF();
+
+			//IncomingHarvest.ExportNTriples(OutputHarvestFilename);
 		}
 
 		public class ProgramOption

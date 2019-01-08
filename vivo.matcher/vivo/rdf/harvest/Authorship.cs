@@ -14,6 +14,8 @@ namespace vivo.rdf.harvest
 
 		protected INode LinkedAuthorNode {
 			get {
+				if (LinkedAuthorTriple == null) return null;
+
 				return LinkedAuthorTriple.Object;
 			}
 		}

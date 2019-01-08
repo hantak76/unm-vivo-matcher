@@ -1,0 +1,151 @@
+<http://vivo.health.unm.edu/individual/n1840546625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Document> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Avoidance Learning" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> <http://purl.org/ontology/bibo/AcademicArticle> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Adaptation, Psychological" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://www.w3.org/2000/01/rdf-schema#label> "Avoidant coping with health problems is related to poorer quality of life among lung transplant candidates." .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://purl.org/ontology/bibo/number> "3" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Male" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Female" .
+<http://vivo.health.unm.edu/individual/n1854081671> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeValue> .
+<http://vivo.health.unm.edu/individual/n1854081671> <http://vivoweb.org/ontology/core#dateTime> "2003-09-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vivo.health.unm.edu/individual/n1854081671> <http://vivoweb.org/ontology/core#dateTimePrecision> <http://vivoweb.org/ontology/core#yearMonthPrecision> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#dateTimeValue> <http://vivo.health.unm.edu/individual/n1854081671> .
+<http://vivo.health.unm.edu/individual/n1652848169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DependentResource> .
+<http://vivo.health.unm.edu/individual/n1652848169> <http://vivoweb.org/ontology/core#authorRank> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://vivo.health.unm.edu/individual/n1652848169> <http://www.w3.org/2000/01/rdf-schema#label> "Authorship for Kormos, Robert L" .
+<http://vivo.health.unm.edu/individual/n1652848169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource> .
+<http://vivo.health.unm.edu/individual/n1652848169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://vivo.health.unm.edu/individual/n1652848169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#informationResourceInAuthorship> <http://vivo.health.unm.edu/individual/n1652848169> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Middle Aged" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/AcademicArticle> .
+<http://vivo.health.unm.edu/individual/n1571855747> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DependentResource> .
+<http://vivo.health.unm.edu/individual/n1571855747> <http://vivoweb.org/ontology/core#authorRank> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://vivo.health.unm.edu/individual/n470061945> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/harvester/excludeEntity> .
+<http://vivo.health.unm.edu/individual/n470061945> <http://vivoweb.org/ontology/core#middleName> "D" .
+<http://vivo.health.unm.edu/individual/n470061945> <http://xmlns.com/foaf/0.1/firstName> "Jan" .
+<http://vivo.health.unm.edu/individual/n470061945> <http://xmlns.com/foaf/0.1/lastName> "Manzetti" .
+<http://vivo.health.unm.edu/individual/n470061945> <http://www.w3.org/2000/01/rdf-schema#label> "Manzetti, Jan D" .
+<http://vivo.health.unm.edu/individual/n470061945> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://vivo.health.unm.edu/individual/n470061945> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing> .
+<http://vivo.health.unm.edu/individual/n1571855747> <http://www.w3.org/2000/01/rdf-schema#label> "Authorship for Manzetti, Jan D" .
+<http://vivo.health.unm.edu/individual/n1571855747> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource> .
+<http://vivo.health.unm.edu/individual/n1571855747> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://vivo.health.unm.edu/individual/n1571855747> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#informationResourceInAuthorship> <http://vivo.health.unm.edu/individual/n1571855747> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Socioeconomic Factors" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Activities of Daily Living" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#Title> "Avoidant coping with health problems is related to poorer quality of life among lung transplant candidates." .
+<http://vivo.health.unm.edu/individual/n716436149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DependentResource> .
+<http://vivo.health.unm.edu/individual/n716436149> <http://vivoweb.org/ontology/core#authorRank> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://vivo.health.unm.edu/individual/n716436149> <http://www.w3.org/2000/01/rdf-schema#label> "Authorship for DiMartini, Andrea F" .
+<http://vivo.health.unm.edu/individual/n716436149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource> .
+<http://vivo.health.unm.edu/individual/n716436149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://vivo.health.unm.edu/individual/n716436149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#informationResourceInAuthorship> <http://vivo.health.unm.edu/individual/n716436149> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Depression" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://purl.org/ontology/bibo/volume> "13" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Lung Transplantation" .
+<http://vivo.health.unm.edu/individual/n1874079704> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DependentResource> .
+<http://vivo.health.unm.edu/individual/n1874079704> <http://vivoweb.org/ontology/core#authorRank> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://vivo.health.unm.edu/individual/n1890519896> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/harvester/excludeEntity> .
+<http://vivo.health.unm.edu/individual/n1890519896> <http://vivoweb.org/ontology/core#middleName> "Amanda" .
+<http://vivo.health.unm.edu/individual/n1890519896> <http://xmlns.com/foaf/0.1/firstName> "Mary" .
+<http://vivo.health.unm.edu/individual/n1890519896> <http://xmlns.com/foaf/0.1/lastName> "Dew" .
+<http://vivo.health.unm.edu/individual/n1890519896> <http://www.w3.org/2000/01/rdf-schema#label> "Dew, Mary Amanda" .
+<http://vivo.health.unm.edu/individual/n1890519896> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://vivo.health.unm.edu/individual/n1890519896> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing> .
+<http://vivo.health.unm.edu/individual/n1874079704> <http://www.w3.org/2000/01/rdf-schema#label> "Authorship for Dew, Mary Amanda" .
+<http://vivo.health.unm.edu/individual/n1874079704> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource> .
+<http://vivo.health.unm.edu/individual/n1874079704> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://vivo.health.unm.edu/individual/n1874079704> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#informationResourceInAuthorship> <http://vivo.health.unm.edu/individual/n1874079704> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://purl.org/ontology/bibo/pmid> "14558632" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Emotions" .
+<http://vivo.health.unm.edu/individual/n1091132177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DependentResource> .
+<http://vivo.health.unm.edu/individual/n1091132177> <http://vivoweb.org/ontology/core#authorRank> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://vivo.health.unm.edu/individual/n1427039563> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/harvester/excludeEntity> .
+<http://vivo.health.unm.edu/individual/n1427039563> <http://vivoweb.org/ontology/core#middleName> "M" .
+<http://vivo.health.unm.edu/individual/n1427039563> <http://xmlns.com/foaf/0.1/firstName> "Jean" .
+<http://vivo.health.unm.edu/individual/n1427039563> <http://xmlns.com/foaf/0.1/lastName> "Goycoolea" .
+<http://vivo.health.unm.edu/individual/n1427039563> <http://www.w3.org/2000/01/rdf-schema#label> "Goycoolea, Jean M" .
+<http://vivo.health.unm.edu/individual/n1427039563> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://vivo.health.unm.edu/individual/n1427039563> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing> .
+<http://vivo.health.unm.edu/individual/n1091132177> <http://www.w3.org/2000/01/rdf-schema#label> "Authorship for Goycoolea, Jean M" .
+<http://vivo.health.unm.edu/individual/n1091132177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource> .
+<http://vivo.health.unm.edu/individual/n1091132177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://vivo.health.unm.edu/individual/n1091132177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#informationResourceInAuthorship> <http://vivo.health.unm.edu/individual/n1091132177> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Social Support" .
+<http://vivo.health.unm.edu/individual/n248967242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DependentResource> .
+<http://vivo.health.unm.edu/individual/n248967242> <http://vivoweb.org/ontology/core#authorRank> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://vivo.health.unm.edu/individual/n248967242> <http://www.w3.org/2000/01/rdf-schema#label> "Authorship for Hall, Martica" .
+<http://vivo.health.unm.edu/individual/n248967242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource> .
+<http://vivo.health.unm.edu/individual/n248967242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://vivo.health.unm.edu/individual/n248967242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#informationResourceInAuthorship> <http://vivo.health.unm.edu/individual/n248967242> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://purl.org/ontology/bibo/pageStart> "183" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Quality of Life" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Surveys and Questionnaires" .
+<http://vivo.health.unm.edu/individual/n1861873647> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DependentResource> .
+<http://vivo.health.unm.edu/individual/n1861873647> <http://vivoweb.org/ontology/core#authorRank> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://vivo.health.unm.edu/individual/n2140343627> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n1840546625> .
+<http://vivo.health.unm.edu/individual/n385127310> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n1840546625> .
+<http://vivo.health.unm.edu/individual/n1861873647> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n1840546625> .
+<http://vivo.health.unm.edu/individual/n248967242> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n1840546625> .
+<http://vivo.health.unm.edu/individual/n1091132177> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n1840546625> .
+<http://vivo.health.unm.edu/individual/n1861873647> <http://www.w3.org/2000/01/rdf-schema#label> "Authorship for McCurry, Kenneth R" .
+<http://vivo.health.unm.edu/individual/n1861873647> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource> .
+<http://vivo.health.unm.edu/individual/n1861873647> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://vivo.health.unm.edu/individual/n1861873647> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#informationResourceInAuthorship> <http://vivo.health.unm.edu/individual/n1861873647> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Health Status" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Problem Solving" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#InformationResource> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Article> .
+<http://vivo.health.unm.edu/individual/n397991054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Journal> .
+<http://vivo.health.unm.edu/individual/n397991054> <http://vivoweb.org/ontology/core#publicationVenueFor> <http://vivo.health.unm.edu/individual/n1840546625> .
+<http://vivo.health.unm.edu/individual/n397991054> <http://purl.org/ontology/bibo/issn> "1526-9248" .
+<http://vivo.health.unm.edu/individual/n397991054> <http://vivoweb.org/ontology/core#Title> "Progress in transplantation (Aliso Viejo, Calif.)" .
+<http://vivo.health.unm.edu/individual/n397991054> <http://www.w3.org/2000/01/rdf-schema#label> "Progress in transplantation (Aliso Viejo, Calif.)" .
+<http://vivo.health.unm.edu/individual/n397991054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#hasPublicationVenue> <http://vivo.health.unm.edu/individual/n397991054> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Humans" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Regression Analysis" .
+<http://vivo.health.unm.edu/individual/n385127310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DependentResource> .
+<http://vivo.health.unm.edu/individual/n385127310> <http://vivoweb.org/ontology/core#authorRank> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://vivo.health.unm.edu/individual/n1874079704> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n1840546625> .
+<http://vivo.health.unm.edu/individual/n716436149> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n1840546625> .
+<http://vivo.health.unm.edu/individual/n1571855747> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n1840546625> .
+<http://vivo.health.unm.edu/individual/n1652848169> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n1840546625> .
+<http://vivo.health.unm.edu/individual/n1427039563> <http://vivoweb.org/ontology/core#relatedBy> <http://vivo.health.unm.edu/individual/n1091132177> .
+<http://vivo.health.unm.edu/individual/n1890519896> <http://vivoweb.org/ontology/core#relatedBy> <http://vivo.health.unm.edu/individual/n1874079704> .
+<http://vivo.health.unm.edu/individual/n470061945> <http://vivoweb.org/ontology/core#relatedBy> <http://vivo.health.unm.edu/individual/n1571855747> .
+<http://vivo.health.unm.edu/individual/n2140343627> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n895288303> .
+<http://vivo.health.unm.edu/individual/n385127310> <http://www.w3.org/2000/01/rdf-schema#label> "Authorship for Switzer, Galen E" .
+<http://vivo.health.unm.edu/individual/n385127310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource> .
+<http://vivo.health.unm.edu/individual/n385127310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://vivo.health.unm.edu/individual/n385127310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#informationResourceInAuthorship> <http://vivo.health.unm.edu/individual/n385127310> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://purl.org/ontology/bibo/abstract> "Lung transplant candidates face numerous health-related stressors. Although previous work has described the range of coping strategies candidates may use, whether those strategies are related to quality of life in physical functioning, emotional, and social domains has rarely been examined.Adult lung transplant candidates (N = 128) participated in semistructured interviews that included questions regarding global and domain-specific quality of life and a multidimensional assessment of coping with health-related problems. Demographic characteristics, health status, and other psychosocial variables were also assessed, and their effects were examined and controlled in multivariate analyses of the coping-quality-of-life relationship.Respondents were most likely to use active, acceptance, and support-seeking strategies to cope with health problems. Self-blame or avoidance were rarely used. Although used least often, avoidant coping was the most strongly and consistently related to quality of life. With demographic and psychosocial variables controlled, higher avoidant coping remained associated with significantly poorer global quality of life, bodily pain, difficulty with daily work or activities as a function of emotional problems, and depressive symptomatology. Avoidant coping accentuated the association of poor health status and lower quality of life. Among respondents with lower health status, using more avoidant coping was associated with greater difficulty functioning in daily activities as a result of emotional problems. Those with higher health status had less difficulty functioning in daily activities as a result of emotional problems.Transplant team members are encouraged to be aware of and help patients refrain from using avoidant coping strategies." .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Cross-Sectional Studies" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Pennsylvania" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://purl.org/ontology/bibo/pageEnd> "192" .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#freetextKeyword> "Stress, Psychological" .
+<http://vivo.health.unm.edu/individual/n2140343627> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DependentResource> .
+<http://vivo.health.unm.edu/individual/n2140343627> <http://vivoweb.org/ontology/core#authorRank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://vivo.health.unm.edu/individual/n385127310> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n715810572> .
+<http://vivo.health.unm.edu/individual/n1861873647> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n1475253420> .
+<http://vivo.health.unm.edu/individual/n248967242> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n1647706325> .
+<http://vivo.health.unm.edu/individual/n716436149> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n1361175003> .
+<http://vivo.health.unm.edu/individual/n1652848169> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n931355567> .
+<http://vivo.health.unm.edu/individual/n1091132177> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n1427039563> .
+<http://vivo.health.unm.edu/individual/n1874079704> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n1890519896> .
+<http://vivo.health.unm.edu/individual/n1571855747> <http://vivoweb.org/ontology/core#relates> <http://vivo.health.unm.edu/individual/n470061945> .
+<http://vivo.health.unm.edu/individual/n2140343627> <http://www.w3.org/2000/01/rdf-schema#label> "Authorship for Myaskovsky, Larissa" .
+<http://vivo.health.unm.edu/individual/n2140343627> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource> .
+<http://vivo.health.unm.edu/individual/n2140343627> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://vivo.health.unm.edu/individual/n2140343627> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing> .
+<http://vivo.health.unm.edu/individual/n1840546625> <http://vivoweb.org/ontology/core#informationResourceInAuthorship> <http://vivo.health.unm.edu/individual/n2140343627> .

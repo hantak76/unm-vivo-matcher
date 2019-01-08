@@ -9,45 +9,15 @@ namespace vivo.rdf.harvest
 {
 	public class Pubmed
 	{
+		protected string VCardPrefix = @"vcard";
+		
 		protected IGraph Graph { get; set; }
 
 		protected Pubmed(IGraph g)
 		{
 			Graph = g;
-		}
 
-		public void Debug(string outFilename)
-		{
-			foreach (var doc in Documents) {
-				var docTitle = doc.Title;
-
-				Console.WriteLine("Document: " + docTitle);
-
-				foreach (var authorship in doc.Authorships) {
-
-					var author = authorship.Author;
-
-					var authorLabel = author.Label;
-
-					Console.WriteLine("\tAuthor: " + authorLabel);
-
-					if (authorLabel == @"Larson, Richard S") {
-						Console.WriteLine("\t\tReplacing " + authorLabel);
-						var triplesToRemove = new List<Triple>(author.GetTriples());
-						triplesToRemove.Add(authorship.LinkedAuthorTriple);
-
-						authorship.UpdateLinkedAuthor(@"http://vivo.health.unm.edu/individual/n6221");
-
-						Remove(triplesToRemove);
-
-					}
-				}
-				Console.WriteLine();
-			}
-
-			ExportNTriples(outFilename);
-
-
+			// Add the vcard
 		}
 
 		protected IEnumerable<Triple> DocumentTriples
@@ -68,6 +38,72 @@ namespace vivo.rdf.harvest
 				}
 				return r;
 			}
+		}
+
+		public void UpdateToISF()
+		{
+			List<Triple> additions = new List<Triple>();
+			List<Triple> removals = new List<Triple>();
+
+			var typePredicate = Graph.CreateUriNode(@"rdf:type");
+			var personObject = Graph.CreateUriNode(@"j.4:Person");
+
+			foreach (var triple in Graph.GetTriplesWithPredicateObject(typePredicate,personObject))
+			{
+				Console.WriteLine("Person = " + triple.Subject);
+
+				var newUri = vivo.utility.Individual.GenerateIndividual();
+
+				Console.WriteLine("New URI = " + newUri);
+
+				// Make a vcard
+
+			}
+			// Pull all the people a
+			// Need to move person info in
+
+
+			// Change vivo:linkedAuthor to vivo:relates
+			// Change vivo:authorInAuthorship to vivo:relatedBy
+			// Change vivo:linkedInfomrationResource to vivo:relates
+			// Change vivo:informationResourceInAuthorship to vivo:relatedBy
+
+
+			var relatedByPredicate = Graph.CreateUriNode(@"j.3:relatedBy");
+			var relatesPredicate = Graph.CreateUriNode(@"j.3:relates");
+			var linkedAuthorPredicate = Graph.CreateUriNode(@"j.3:linkedAuthor");
+			var authorInAuthorshipPredicate = Graph.CreateUriNode("j.3:authorInAuthorship");
+			var linkedInformationResourcePredicate = Graph.CreateUriNode("j.3:linkedInformationResource");
+			var informationResourceinAuthorshipPredicate = Graph.CreateUriNode("j.3:informationResourceInAuthorshp");
+
+			foreach (var triple in Graph.GetTriplesWithPredicate(linkedAuthorPredicate))
+			{
+				additions.Add(new Triple(triple.Subject, relatesPredicate, triple.Object));
+				removals.Add(triple);
+			}
+
+			foreach (var triple in Graph.GetTriplesWithPredicate(authorInAuthorshipPredicate))
+			{
+				additions.Add(new Triple(triple.Subject, relatedByPredicate, triple.Object));
+				removals.Add(triple);
+			}
+
+			foreach (var triple in Graph.GetTriplesWithPredicate(linkedInformationResourcePredicate))
+			{
+				additions.Add(new Triple(triple.Subject, relatesPredicate, triple.Object));
+				removals.Add(triple);
+			}
+
+			foreach (var triple in Graph.GetTriplesWithPredicate(informationResourceinAuthorshipPredicate))
+			{
+				additions.Add(new Triple(triple.Subject, relatedByPredicate, triple.Object));
+				removals.Add(triple);
+			}
+
+			System.Console.WriteLine("Adding " + additions.Count + ", Removing " + removals.Count);
+
+			Graph.Assert(additions);
+			Graph.Retract(removals);    
 		}
 
 		public void ExportRdf(string filename)
