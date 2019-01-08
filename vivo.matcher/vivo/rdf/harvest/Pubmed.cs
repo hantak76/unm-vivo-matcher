@@ -16,23 +16,6 @@ namespace vivo.rdf.harvest
 			Graph = g;
 		}
 
-		/*
-		protected IEnumerable<Triple> GetPeople()
-		{
-			IUriNode rdfType = Graph.CreateUriNode(@"rdf:type");
-			IUriNode person = Graph.CreateUriNode(@"j.4:Person");
-
-			return Graph.GetTriplesWithPredicateObject(rdfType, person);
-		}
-
-		protected IEnumerable<Triple> GetAuthorshipsForDocument(INode node)
-		{
-			IUriNode infoAuthorship = Graph.CreateUriNode(@"j.3:informationResourceInAuthorship");
-
-			return Graph.GetTriplesWithSubjectPredicate(node, infoAuthorship);
-		}
-		*/
-
 		public void Debug(string outFilename)
 		{
 			foreach (var doc in Documents) {

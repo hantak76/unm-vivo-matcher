@@ -6,6 +6,12 @@ namespace vivo.profiles
 	{
 		protected List<Profile> Data { get; set; }
 
+		public int MatchValue {
+			get {
+				return 5;
+			}
+		}
+
 		public ProfileList()
 		{
 			Data = new List<Profile>();
@@ -27,6 +33,29 @@ namespace vivo.profiles
 			}
 
 			return r;
+		}
+
+		public ProfileMatch FindMatch(string first, string middle, string last)
+		{
+			return FindMatch(new Name(first, middle, last));
+		}
+
+		public ProfileMatch FindMatch(Name name)
+		{
+			Profile targetProfile = null;
+
+			var score = int.MaxValue;
+			foreach (var p in this) {
+				var testScore = p.Name.Similarity(name);
+				if ( (testScore < score) && (testScore < MatchValue) ) {
+					targetProfile = p;
+					score = testScore;
+				}
+			}
+
+			if (targetProfile == null) return null;
+
+			return new ProfileMatch(name, targetProfile, score);
 		}
 
 		public IEnumerator<Profile> GetEnumerator()

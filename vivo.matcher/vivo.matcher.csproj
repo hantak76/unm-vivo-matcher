@@ -75,6 +75,7 @@
     <Compile Include="vivo\rdf\harvest\AuthorshipList.cs" />
     <Compile Include="vivo\rdf\harvest\GraphNode.cs" />
     <Compile Include="Matcher.cs" />
+    <Compile Include="vivo\profiles\ProfileMatch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

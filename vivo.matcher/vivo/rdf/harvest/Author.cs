@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using VDS.RDF;
 using VDS.RDF.Parsing;
+using vivo.profiles;
 
 namespace vivo.rdf.harvest
 {
@@ -32,6 +33,12 @@ namespace vivo.rdf.harvest
 		public string MiddleName {
 			get {
 				return GetObjLiteralValue(Node, CreateUriNode(@"j.3:middleName"));
+			}
+		}
+
+		public Name Name {
+			get {
+				return new Name(FirstName, MiddleName, LastName);
 			}
 		}
 

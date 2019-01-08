@@ -19,6 +19,21 @@ namespace vivo
 		public void Process()
 		{
 			// Go through the harvest
+			foreach (var document in IncomingHarvest.Documents) {
+				foreach (var authorship in document.Authorships) {
+					var match = Profiles.FindMatch(authorship.Author.Name);
+
+					if (match == null) {
+						Console.WriteLine(@"Skipping author " + authorship.Author.Name.Last);
+						continue;
+					}
+
+					Console.WriteLine(@"Updating " + authorship.Author.LastName + @" to " + match.TargetProfile.Uri);
+
+					authorship.UpdateLinkedAuthor(match.TargetProfile.Uri);
+
+				}
+			}
 		}
 
 		public class ProgramOption

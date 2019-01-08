@@ -40,6 +40,10 @@ namespace vivo.profiles
 
 		public int Similarity(Name test)
 		{
+			if ((Middle == null) || (test.Middle == null)) {
+				return FirstSimilarity(test) + LastSimilarity(test);
+			}
+
 			return FirstSimilarity(test) + MiddleSimilarity(test) + LastSimilarity(test);
 		}
 	}
