@@ -8,214 +8,1132 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:j.3="http://vivoweb.org/ontology/core#"
     xmlns:j.4="http://xmlns.com/foaf/0.1/">
-  <j.2:Document rdf:about="http://vivo.health.unm.edu/individual/n1840546625">
-    <j.3:freetextKeyword>Avoidance Learning</j.3:freetextKeyword>
-    <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
-    <j.3:freetextKeyword>Adaptation, Psychological</j.3:freetextKeyword>
-    <rdfs:label>Avoidant coping with health problems is related to poorer quality of life among lung transplant candidates.</rdfs:label>
-    <j.2:number>3</j.2:number>
-    <j.3:freetextKeyword>Male</j.3:freetextKeyword>
-    <j.3:freetextKeyword>Female</j.3:freetextKeyword>
-    <j.3:dateTimeValue>
-      <j.3:DateTimeValue rdf:about="http://vivo.health.unm.edu/individual/n1854081671">
-        <j.3:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2003-09-01T00:00:00</j.3:dateTime>
-        <j.3:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthPrecision"/>
-      </j.3:DateTimeValue>
-    </j.3:dateTimeValue>
-    <j.3:informationResourceInAuthorship>
-      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1652848169">
-        <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-        >5</j.3:authorRank>
-        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1840546625"/>
-        <j.3:linkedAuthor>
-          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1531922180">
-            <j.3:middleName>L</j.3:middleName>
-            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1652848169"/>
-            <j.4:firstName>Robert</j.4:firstName>
-            <j.4:lastName>Kormos</j.4:lastName>
-            <rdfs:label>Kormos, Robert L</rdfs:label>
-            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1027701411">
+    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >2</j.3:authorRank>
+    <j.3:linkedInformationResource>
+      <j.2:Document rdf:about="http://vivo.health.unm.edu/individual/n2007828707">
+        <j.3:hasPublicationVenue>
+          <j.2:Journal rdf:about="http://vivo.health.unm.edu/individual/n967018388">
+            <j.3:Title>Transplantation</j.3:Title>
+            <j.3:publicationVenueFor>
+              <j.0:Flag1Value1Thing rdf:about="http://vivo.health.unm.edu/individual/n231740315">
+                <j.2:abstract>The National Marrow Donor Program (NMDP) has had remarkable success at recruiting potential bone marrow donors and recently has become increasingly focused on the retention of registered volunteers. This study extends the authors' work examining factors associated with attrition from the registry. Its goal was to determine which characteristics from six psychosocial domains were associated with attrition at two key stages leading to donation.Questionnaires were mailed to potential donors after they were contacted as a potential match and had decided whether or not to continue toward donation. Our final sample included 1,727 volunteers who decided to continue with typing at the DR stage and 195 volunteers who decided to continue at the confirmatory typing (CT) stage as well as 179 and 169 individuals, respectively, who declined further participation in the registry at DR and CT stages.Bivariate analyses indicated that multiple factors in all six domains (demographics, volunteer-related, general psychosocial, recruitment-related, donation-related, and contact with center staff) were associated with discontinued registry participation. Logistic regression indicated that unique associations were concentrated in volunteer-related, donation-related, and contact with center domains.Findings suggested that intrinsic commitment to donation, more realistic expectations, fewer medical concerns, and greater contact with the donor center were all associated with lower attrition. Possible interventions to reduce attrition are discussed.</j.2:abstract>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+                <rdfs:label>Attrition of potential bone marrow donors at two key decision points leading to donation.</rdfs:label>
+                <j.3:freetextKeyword>Patient Dropouts</j.3:freetextKeyword>
+                <j.2:pmid>15239616</j.2:pmid>
+                <j.2:number>10</j.2:number>
+                <j.2:volume>77</j.2:volume>
+                <j.3:Title>Attrition of potential bone marrow donors at two key decision points leading to donation.</j.3:Title>
+                <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+                <j.3:freetextKeyword>Tissue Donors</j.3:freetextKeyword>
+                <j.3:freetextKeyword>Multivariate Analysis</j.3:freetextKeyword>
+                <j.3:dateTimeValue>
+                  <j.3:DateTimeValue rdf:about="http://vivo.health.unm.edu/individual/n1243551144">
+                    <j.3:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                    >2004-05-01T00:00:00</j.3:dateTime>
+                    <j.3:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthPrecision"/>
+                  </j.3:DateTimeValue>
+                </j.3:dateTimeValue>
+                <j.3:freetextKeyword>Decision Making</j.3:freetextKeyword>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n632571375">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >1</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n231740315"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n543450064">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n632571375"/>
+                        <j.3:middleName>E</j.3:middleName>
+                        <j.4:firstName>Galen</j.4:firstName>
+                        <j.4:lastName>Switzer</j.4:lastName>
+                        <rdfs:label>Switzer, Galen E</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Switzer, Galen E</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.3:hasPublicationVenue rdf:resource="http://vivo.health.unm.edu/individual/n967018388"/>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+                <j.3:freetextKeyword>Bone Marrow Transplantation</j.3:freetextKeyword>
+                <j.3:freetextKeyword>Humans</j.3:freetextKeyword>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1259041208">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >4</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n231740315"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1291946964">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1259041208"/>
+                        <j.4:firstName>Larissa</j.4:firstName>
+                        <j.4:lastName>Myaskovsky</j.4:lastName>
+                        <rdfs:label>Myaskovsky, Larissa</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Myaskovsky, Larissa</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n719129524">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >6</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n231740315"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n568548283">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n719129524"/>
+                        <j.3:middleName>L</j.3:middleName>
+                        <j.4:firstName>Dennis</j.4:firstName>
+                        <j.4:lastName>Confer</j.4:lastName>
+                        <rdfs:label>Confer, Dennis L</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Confer, Dennis L</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.2:pageEnd>1534</j.2:pageEnd>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n68956833">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >3</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n231740315"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1563153967">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n68956833"/>
+                        <j.3:middleName>M</j.3:middleName>
+                        <j.4:firstName>Jean</j.4:firstName>
+                        <j.4:lastName>Goycoolea</j.4:lastName>
+                        <rdfs:label>Goycoolea, Jean M</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Goycoolea, Jean M</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <rdf:type rdf:resource="http://vivoweb.org/ontology/core#InformationResource"/>
+                <j.3:freetextKeyword>Tissue and Organ Procurement</j.3:freetextKeyword>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n925589174">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >2</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n231740315"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n479366841">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n925589174"/>
+                        <j.3:middleName>Amanda</j.3:middleName>
+                        <j.4:firstName>Mary</j.4:firstName>
+                        <j.4:lastName>Dew</j.4:lastName>
+                        <rdfs:label>Dew, Mary Amanda</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Dew, Mary Amanda</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n76093713">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >5</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n231740315"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n293482694">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n76093713"/>
+                        <j.4:firstName>Linda</j.4:firstName>
+                        <j.4:lastName>Abress</j.4:lastName>
+                        <rdfs:label>Abress, Linda</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Abress, Linda</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                <j.2:pageStart>1529</j.2:pageStart>
+                <j.3:freetextKeyword>Logistic Models</j.3:freetextKeyword>
+                <j.3:freetextKeyword>Registries</j.3:freetextKeyword>
+              </j.0:Flag1Value1Thing>
+            </j.3:publicationVenueFor>
             <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-          </j.1:excludeEntity>
-        </j.3:linkedAuthor>
-        <rdfs:label>Authorship for Kormos, Robert L</rdfs:label>
-        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
-        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-      </j.3:DependentResource>
-    </j.3:informationResourceInAuthorship>
-    <j.3:freetextKeyword>Middle Aged</j.3:freetextKeyword>
-    <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
-    <j.3:informationResourceInAuthorship>
-      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1571855747">
-        <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-        >8</j.3:authorRank>
-        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1840546625"/>
-        <j.3:linkedAuthor>
-          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n470061945">
-            <j.3:middleName>D</j.3:middleName>
-            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1571855747"/>
-            <j.4:firstName>Jan</j.4:firstName>
-            <j.4:lastName>Manzetti</j.4:lastName>
-            <rdfs:label>Manzetti, Jan D</rdfs:label>
-            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdfs:label>Transplantation</rdfs:label>
+            <j.2:issn>0041-1337</j.2:issn>
+            <j.3:publicationVenueFor rdf:resource="http://vivo.health.unm.edu/individual/n2007828707"/>
+            <j.3:publicationVenueFor>
+              <j.2:Document rdf:about="http://vivo.health.unm.edu/individual/n2027067818">
+                <j.3:hasPublicationVenue rdf:resource="http://vivo.health.unm.edu/individual/n967018388"/>
+                <j.2:volume>77</j.2:volume>
+                <j.3:freetextKeyword>Tissue and Organ Procurement</j.3:freetextKeyword>
+                <j.2:pageEnd>880</j.2:pageEnd>
+                <rdfs:label>The association of donor center characteristics with attrition from the national marrow donor registry.</rdfs:label>
+                <j.3:freetextKeyword>Registries</j.3:freetextKeyword>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1352158246">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >3</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2027067818"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n244687182">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1352158246"/>
+                        <j.3:middleName>Amanda</j.3:middleName>
+                        <j.4:firstName>Mary</j.4:firstName>
+                        <j.4:lastName>Dew</j.4:lastName>
+                        <rdfs:label>Dew, Mary Amanda</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Dew, Mary Amanda</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                <j.3:Title>The association of donor center characteristics with attrition from the national marrow donor registry.</j.3:Title>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n229636030">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >2</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2027067818"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n826437149">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n229636030"/>
+                        <j.3:middleName>E</j.3:middleName>
+                        <j.4:firstName>Galen</j.4:firstName>
+                        <j.4:lastName>Switzer</j.4:lastName>
+                        <rdfs:label>Switzer, Galen E</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Switzer, Galen E</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n109123375">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >4</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2027067818"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1681120704">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n109123375"/>
+                        <j.3:middleName>M</j.3:middleName>
+                        <j.4:firstName>Jean</j.4:firstName>
+                        <j.4:lastName>Goycoolea</j.4:lastName>
+                        <rdfs:label>Goycoolea, Jean M</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Goycoolea, Jean M</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.3:freetextKeyword>Surveys and Questionnaires</j.3:freetextKeyword>
+                <j.3:freetextKeyword>Tissue Donors</j.3:freetextKeyword>
+                <rdf:type rdf:resource="http://vivoweb.org/ontology/core#InformationResource"/>
+                <j.2:pmid>15077030</j.2:pmid>
+                <j.3:dateTimeValue>
+                  <j.3:DateTimeValue rdf:about="http://vivo.health.unm.edu/individual/n389459348">
+                    <j.3:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                    >2004-03-01T00:00:00</j.3:dateTime>
+                    <j.3:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthPrecision"/>
+                  </j.3:DateTimeValue>
+                </j.3:dateTimeValue>
+                <j.2:number>6</j.2:number>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+                <j.3:freetextKeyword>Patient Selection</j.3:freetextKeyword>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n2103352218">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >5</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2027067818"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n34027218">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n2103352218"/>
+                        <j.3:middleName>L</j.3:middleName>
+                        <j.4:firstName>Dennis</j.4:firstName>
+                        <j.4:lastName>Confer</j.4:lastName>
+                        <rdfs:label>Confer, Dennis L</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Confer, Dennis L</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.2:pageStart>874</j.2:pageStart>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n886479370">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >1</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2027067818"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n348121934">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n886479370"/>
+                        <j.4:firstName>Larissa</j.4:firstName>
+                        <j.4:lastName>Myaskovsky</j.4:lastName>
+                        <rdfs:label>Myaskovsky, Larissa</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Myaskovsky, Larissa</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.3:freetextKeyword>United States</j.3:freetextKeyword>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1536486984">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >6</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2027067818"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1566229443">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1536486984"/>
+                        <j.4:firstName>Linda</j.4:firstName>
+                        <j.4:lastName>Abress</j.4:lastName>
+                        <rdfs:label>Abress, Linda</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Abress, Linda</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.2:abstract>The National Marrow Donor Program (NMDP) has approximately 5 million registered potential donors and continues to add more than 30,000 new recruits to the registry monthly. However, more than 30% of potential donors are not available or decline to donate at key decision points in the donation process. Although previous researchers have examined the association of individual donor characteristics with attrition from the registry, no published studies have investigated the role of donor center characteristics or features of the donor centers' environment on attrition rates.Donor center coordinators from 72 NMDP centers completed questionnaires that included items regarding donor center location and organization, recruitment strategies, and registry management. Center-specific registry composition data and attrition rates were gathered from the NMDP database.Analyses indicated that higher attrition was found at larger centers that needed more center staff and volunteers to deal with larger workloads and more DR-typing requests. Attrition was also higher among centers located in highly populated, urban environments, with larger minority and less stable populations.The results indicate that the NMDP may need to tailor donor center retention expectations to account for certain unchangeable characteristics (e.g., center size and population stability) and to develop internal strategies to address the unique characteristics of each donor center (e.g., current performance level or improvement needs).</j.2:abstract>
+                <j.3:freetextKeyword>Databases, Factual</j.3:freetextKeyword>
+                <j.3:freetextKeyword>Humans</j.3:freetextKeyword>
+              </j.2:Document>
+            </j.3:publicationVenueFor>
+            <j.3:publicationVenueFor>
+              <j.2:Article rdf:about="http://vivo.health.unm.edu/individual/n855558990">
+                <j.3:freetextKeyword>Tissue Donors</j.3:freetextKeyword>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n693781102">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >5</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n855558990"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1244523967">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n693781102"/>
+                        <j.3:middleName>L</j.3:middleName>
+                        <j.4:firstName>Dennis</j.4:firstName>
+                        <j.4:lastName>Confer</j.4:lastName>
+                        <rdfs:label>Confer, Dennis L</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Confer, Dennis L</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.2:pageStart>1517</j.2:pageStart>
+                <j.2:pageEnd>1523</j.2:pageEnd>
+                <j.3:freetextKeyword>Adolescent</j.3:freetextKeyword>
+                <j.3:freetextKeyword>Tissue and Organ Procurement</j.3:freetextKeyword>
+                <j.3:freetextKeyword>Bone Marrow Transplantation</j.3:freetextKeyword>
+                <j.3:Title>Factors associated with ambivalence about bone marrow donation among newly recruited unrelated potential donors.</j.3:Title>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+                <j.3:freetextKeyword>Humans</j.3:freetextKeyword>
+                <j.2:doi>10.1097/01.TP.0000060251.40758.98</j.2:doi>
+                <j.2:pmid>12792507</j.2:pmid>
+                <j.2:number>9</j.2:number>
+                <j.3:hasPublicationVenue rdf:resource="http://vivo.health.unm.edu/individual/n967018388"/>
+                <j.3:dateTimeValue>
+                  <j.3:DateTimeValue rdf:about="http://vivo.health.unm.edu/individual/n541105890">
+                    <j.3:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                    >2003-05-01T00:00:00</j.3:dateTime>
+                    <j.3:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthPrecision"/>
+                  </j.3:DateTimeValue>
+                </j.3:dateTimeValue>
+                <j.2:abstract>Previous research has indicated that feelings of ambivalence about donation are associated with donors' decisions not to donate and with less positive physical and psychosocial outcomes among donors who donated despite feeling ambivalent. The current study examines the prevalence of ambivalence among newly recruited potential bone marrow donors and identifies factors associated with greater ambivalence.Using a cross-sectional design, questionnaires were mailed to a stratified random sample of individuals newly recruited to the National Marrow Donor Program registry at 71 local donor centers. A total of 426 new recruits (63%) completed and returned the questionnaire.Bivariate analyses indicated that multiple recruitment experience and donor perception variables were significantly associated with ambivalence. Multivariate analysis revealed that the following eight variables were uniquely associated with higher levels of ambivalence after adjusting for the effects of other key indicators: participating in other volunteer activities, joining at a drive for a specific patient, perceiving the recruitment staff as less informative, being discouraged from joining by others, not having an intrinsic commitment to donate, being encouraged by one's culture or religion to join, believing there are risks to donation, and having a greater number of medical, work, and family concerns about donation.Potential donors who are motivated by an intrinsic commitment to donate, rather than extrinsic pressure, are less ambivalent about donating. In addition, recruitment staff have a potentially critical role in reducing ambivalence among new recruits by providing information that may allay any unrealistic concerns recruits may have about the medical risks and impact of donation on work and family.</j.2:abstract>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1666928440">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >6</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n855558990"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n774727906">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1666928440"/>
+                        <j.4:firstName>Roberta</j.4:firstName>
+                        <j.4:lastName>King</j.4:lastName>
+                        <rdfs:label>King, Roberta</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for King, Roberta</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1562993022">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >4</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n855558990"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1542801882">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1562993022"/>
+                        <j.3:middleName>Amanda</j.3:middleName>
+                        <j.4:firstName>Mary</j.4:firstName>
+                        <j.4:lastName>Dew</j.4:lastName>
+                        <rdfs:label>Dew, Mary Amanda</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Dew, Mary Amanda</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.2:volume>75</j.2:volume>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                <rdf:type rdf:resource="http://vivoweb.org/ontology/core#InformationResource"/>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1378173455">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >3</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n855558990"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1561486489">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1378173455"/>
+                        <j.3:middleName>M</j.3:middleName>
+                        <j.4:firstName>Jean</j.4:firstName>
+                        <j.4:lastName>Goycoolea</j.4:lastName>
+                        <rdfs:label>Goycoolea, Jean M</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Goycoolea, Jean M</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.3:freetextKeyword>Adult</j.3:freetextKeyword>
+                <j.3:freetextKeyword>Female</j.3:freetextKeyword>
+                <rdfs:label>Factors associated with ambivalence about bone marrow donation among newly recruited unrelated potential donors.</rdfs:label>
+                <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+                <j.3:freetextKeyword>Male</j.3:freetextKeyword>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1618618907">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >2</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n855558990"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n837193779">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1618618907"/>
+                        <j.4:firstName>Larissa</j.4:firstName>
+                        <j.4:lastName>Myaskovsky</j.4:lastName>
+                        <rdfs:label>Myaskovsky, Larissa</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Myaskovsky, Larissa</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1233520758">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >1</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n855558990"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1382248660">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1233520758"/>
+                        <j.3:middleName>E</j.3:middleName>
+                        <j.4:firstName>Galen</j.4:firstName>
+                        <j.4:lastName>Switzer</j.4:lastName>
+                        <rdfs:label>Switzer, Galen E</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Switzer, Galen E</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.3:freetextKeyword>Middle Aged</j.3:freetextKeyword>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+              </j.2:Article>
+            </j.3:publicationVenueFor>
+            <j.3:publicationVenueFor>
+              <j.2:Document rdf:about="http://vivo.health.unm.edu/individual/n1333642750">
+                <j.3:hasPublicationVenue rdf:resource="http://vivo.health.unm.edu/individual/n967018388"/>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n660839092">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >1</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1333642750"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n6592679">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n660839092"/>
+                        <j.3:middleName>E</j.3:middleName>
+                        <j.4:firstName>Galen</j.4:firstName>
+                        <j.4:lastName>Switzer</j.4:lastName>
+                        <rdfs:label>Switzer, Galen E</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Switzer, Galen E</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+                <j.2:pmid>16249735</j.2:pmid>
+                <j.2:volume>80</j.2:volume>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+                <j.2:pageEnd>896</j.2:pageEnd>
+                <j.2:pageStart>890</j.2:pageStart>
+                <j.3:Title>Ethnic differences in donation-related characteristics among potential hematopoietic stem cell donors.</j.3:Title>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1246263274">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >3</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1333642750"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1501521965">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1246263274"/>
+                        <j.3:middleName>J</j.3:middleName>
+                        <j.4:firstName>Donna</j.4:firstName>
+                        <j.4:lastName>Harrington</j.4:lastName>
+                        <rdfs:label>Harrington, Donna J</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Harrington, Donna J</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+                <j.3:dateTimeValue>
+                  <j.3:DateTimeValue rdf:about="http://vivo.health.unm.edu/individual/n1434176661">
+                    <j.3:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                    >2005-10-01T00:00:00</j.3:dateTime>
+                    <j.3:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthPrecision"/>
+                  </j.3:DateTimeValue>
+                </j.3:dateTimeValue>
+                <j.2:number>7</j.2:number>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                <j.3:freetextKeyword>Ethnic Groups</j.3:freetextKeyword>
+                <rdfs:label>Ethnic differences in donation-related characteristics among potential hematopoietic stem cell donors.</rdfs:label>
+                <rdf:type rdf:resource="http://vivoweb.org/ontology/core#InformationResource"/>
+                <j.2:abstract>Although the National Marrow Donor Program has been highly successful at recruiting ethnic minorities as potential hematopoietic stem cell donors, there have been no systematic investigations of whether donor characteristics that might be linked to the donation experience vary by ethnicity.Questionnaires assessing four domains-demographic, volunteer-related, general psychosocial, and donation-related-were mailed to potential donors after they were contacted as a preliminary match for a patient and had agreed to donate. In all, 1,679 potential donors completed and returned a predonation questionnaire. Data from potential donors belonging to five major ethnic groups were analyzed; white, black, Asian/Pacific Islander, Hispanic, and Native American.Bivariate analyses indicated that virtually all factors in the four domains were associated with ethnicity. Direct discriminant function analysis identified three significant functions. The most striking of the three functions indicated that Asian Americans were more highly educated, more ambivalent (reluctant about donation), more concerned (medical, work/family), and more anxious and depressed than all other ethnic groups. Key differences among other ethnic group members were also identified.This study provides the first evidence of ethnic group differences in key predonation variables. Findings suggest that Asian/Pacific Islanders possess a number of characteristics that are known psychosocial risk factors for less positive postdonation outcomes and that more intensive pre and postdonation contact with this group may be necessary. Strategies for improving future research in this area are discussed.</j.2:abstract>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1916386139">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >5</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1333642750"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n711797694">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1916386139"/>
+                        <j.4:firstName>Larissa</j.4:firstName>
+                        <j.4:lastName>Myaskovsky</j.4:lastName>
+                        <rdfs:label>Myaskovsky, Larissa</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Myaskovsky, Larissa</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n2126358333">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >2</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1333642750"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n675470326">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n2126358333"/>
+                        <j.3:middleName>Amanda</j.3:middleName>
+                        <j.4:firstName>Mary</j.4:firstName>
+                        <j.4:lastName>Dew</j.4:lastName>
+                        <rdfs:label>Dew, Mary Amanda</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Dew, Mary Amanda</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.3:freetextKeyword>Hematopoietic Stem Cell Transplantation</j.3:freetextKeyword>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1340018809">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >6</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1333642750"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1538798579">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1340018809"/>
+                        <j.4:firstName>Linda</j.4:firstName>
+                        <j.4:lastName>Abress</j.4:lastName>
+                        <rdfs:label>Abress, Linda</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Abress, Linda</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.3:freetextKeyword>Humans</j.3:freetextKeyword>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n650145106">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >4</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1333642750"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n669220546">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n650145106"/>
+                        <j.4:firstName>Megan</j.4:firstName>
+                        <j.4:lastName>Crowley-Matoka</j.4:lastName>
+                        <rdfs:label>Crowley-Matoka, Megan</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Crowley-Matoka, Megan</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+                <j.3:freetextKeyword>Living Donors</j.3:freetextKeyword>
+                <j.3:freetextKeyword>Surveys and Questionnaires</j.3:freetextKeyword>
+                <j.3:informationResourceInAuthorship>
+                  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1645100006">
+                    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                    >7</j.3:authorRank>
+                    <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1333642750"/>
+                    <j.3:linkedAuthor>
+                      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n773137717">
+                        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1645100006"/>
+                        <j.3:middleName>L</j.3:middleName>
+                        <j.4:firstName>Dennis</j.4:firstName>
+                        <j.4:lastName>Confer</j.4:lastName>
+                        <rdfs:label>Confer, Dennis L</rdfs:label>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                      </j.1:excludeEntity>
+                    </j.3:linkedAuthor>
+                    <rdfs:label>Authorship for Confer, Dennis L</rdfs:label>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.3:DependentResource>
+                </j.3:informationResourceInAuthorship>
+              </j.2:Document>
+            </j.3:publicationVenueFor>
+          </j.2:Journal>
+        </j.3:hasPublicationVenue>
+        <j.3:freetextKeyword>Patient Compliance</j.3:freetextKeyword>
+        <rdfs:label>Rates and risk factors for nonadherence to the medical regimen after adult solid organ transplantation.</rdfs:label>
+        <j.2:number>7</j.2:number>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+        <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n384452391">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >1</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2007828707"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1721334936">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n384452391"/>
+                <j.3:middleName>Amanda</j.3:middleName>
+                <j.4:firstName>Mary</j.4:firstName>
+                <j.4:lastName>Dew</j.4:lastName>
+                <rdfs:label>Dew, Mary Amanda</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for Dew, Mary Amanda</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
             <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-          </j.1:excludeEntity>
-        </j.3:linkedAuthor>
-        <rdfs:label>Authorship for Manzetti, Jan D</rdfs:label>
-        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
-        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-      </j.3:DependentResource>
-    </j.3:informationResourceInAuthorship>
-    <j.3:freetextKeyword>Socioeconomic Factors</j.3:freetextKeyword>
-    <j.3:freetextKeyword>Activities of Daily Living</j.3:freetextKeyword>
-    <j.3:Title>Avoidant coping with health problems is related to poorer quality of life among lung transplant candidates.</j.3:Title>
-    <j.3:informationResourceInAuthorship>
-      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n716436149">
-        <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-        >7</j.3:authorRank>
-        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1840546625"/>
-        <j.3:linkedAuthor>
-          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n2079084606">
-            <j.3:middleName>F</j.3:middleName>
-            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n716436149"/>
-            <j.4:firstName>Andrea</j.4:firstName>
-            <j.4:lastName>DiMartini</j.4:lastName>
-            <rdfs:label>DiMartini, Andrea F</rdfs:label>
-            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <j.3:freetextKeyword>Risk Factors</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Treatment Refusal</j.3:freetextKeyword>
+        <j.2:pmid>17460556</j.2:pmid>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n798598749">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >9</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2007828707"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1632402576">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n798598749"/>
+                <j.3:middleName>L</j.3:middleName>
+                <j.4:firstName>Robert</j.4:firstName>
+                <j.4:lastName>Kormos</j.4:lastName>
+                <rdfs:label>Kormos, Robert L</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for Kormos, Robert L</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
             <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-          </j.1:excludeEntity>
-        </j.3:linkedAuthor>
-        <rdfs:label>Authorship for DiMartini, Andrea F</rdfs:label>
-        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
-        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-      </j.3:DependentResource>
-    </j.3:informationResourceInAuthorship>
-    <j.3:freetextKeyword>Depression</j.3:freetextKeyword>
-    <j.2:volume>13</j.2:volume>
-    <j.3:freetextKeyword>Lung Transplantation</j.3:freetextKeyword>
-    <j.3:informationResourceInAuthorship>
-      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1874079704">
-        <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-        >2</j.3:authorRank>
-        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1840546625"/>
-        <j.3:linkedAuthor>
-          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1890519896">
-            <j.3:middleName>Amanda</j.3:middleName>
-            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1874079704"/>
-            <j.4:firstName>Mary</j.4:firstName>
-            <j.4:lastName>Dew</j.4:lastName>
-            <rdfs:label>Dew, Mary Amanda</rdfs:label>
-            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n183621324">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >6</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2007828707"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n451444456">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n183621324"/>
+                <j.4:firstName>Mark</j.4:firstName>
+                <j.4:lastName>Unruh</j.4:lastName>
+                <rdfs:label>Unruh, Mark</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for Unruh, Mark</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
             <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-          </j.1:excludeEntity>
-        </j.3:linkedAuthor>
-        <rdfs:label>Authorship for Dew, Mary Amanda</rdfs:label>
-        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
-        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-      </j.3:DependentResource>
-    </j.3:informationResourceInAuthorship>
-    <j.2:pmid>14558632</j.2:pmid>
-    <j.3:freetextKeyword>Emotions</j.3:freetextKeyword>
-    <j.3:informationResourceInAuthorship>
-      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1091132177">
-        <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-        >6</j.3:authorRank>
-        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1840546625"/>
-        <j.3:linkedAuthor>
-          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1427039563">
-            <j.3:middleName>M</j.3:middleName>
-            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1091132177"/>
-            <j.4:firstName>Jean</j.4:firstName>
-            <j.4:lastName>Goycoolea</j.4:lastName>
-            <rdfs:label>Goycoolea, Jean M</rdfs:label>
-            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1589794844">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >10</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2007828707"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1810224899">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1589794844"/>
+                <j.3:middleName>B</j.3:middleName>
+                <j.4:firstName>Joel</j.4:firstName>
+                <j.4:lastName>Greenhouse</j.4:lastName>
+                <rdfs:label>Greenhouse, Joel B</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for Greenhouse, Joel B</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
             <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-          </j.1:excludeEntity>
-        </j.3:linkedAuthor>
-        <rdfs:label>Authorship for Goycoolea, Jean M</rdfs:label>
-        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
-        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-      </j.3:DependentResource>
-    </j.3:informationResourceInAuthorship>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <j.3:freetextKeyword>Social Support</j.3:freetextKeyword>
-    <j.3:informationResourceInAuthorship>
-      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n248967242">
-        <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-        >4</j.3:authorRank>
-        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1840546625"/>
-        <j.3:linkedAuthor>
-          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1577696326">
-            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n248967242"/>
-            <j.4:firstName>Martica</j.4:firstName>
-            <j.4:lastName>Hall</j.4:lastName>
-            <rdfs:label>Hall, Martica</rdfs:label>
-            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1984943691">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >5</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2007828707"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n242239258">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1984943691"/>
+                <j.4:firstName>Jennifer</j.4:firstName>
+                <j.4:lastName>Steel</j.4:lastName>
+                <rdfs:label>Steel, Jennifer</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for Steel, Jennifer</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
             <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-          </j.1:excludeEntity>
-        </j.3:linkedAuthor>
-        <rdfs:label>Authorship for Hall, Martica</rdfs:label>
-        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
-        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-      </j.3:DependentResource>
-    </j.3:informationResourceInAuthorship>
-    <j.2:pageStart>183</j.2:pageStart>
-    <j.3:freetextKeyword>Quality of Life</j.3:freetextKeyword>
-    <j.3:freetextKeyword>Surveys and Questionnaires</j.3:freetextKeyword>
-    <j.3:informationResourceInAuthorship>
-      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1861873647">
-        <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
-        >9</j.3:authorRank>
-        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1840546625"/>
-        <j.3:linkedAuthor>
-          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n321762621">
-            <j.3:middleName>R</j.3:middleName>
-            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1861873647"/>
-            <j.4:firstName>Kenneth</j.4:firstName>
-            <j.4:lastName>McCurry</j.4:lastName>
-            <rdfs:label>McCurry, Kenneth R</rdfs:label>
-            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <j.2:pageEnd>873</j.2:pageEnd>
+        <j.2:volume>83</j.2:volume>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1053264243">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >4</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2007828707"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1682986400">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1053264243"/>
+                <j.4:firstName>Larissa</j.4:firstName>
+                <j.4:lastName>Myaskovsky</j.4:lastName>
+                <rdfs:label>Myaskovsky, Larissa</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for Myaskovsky, Larissa</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
             <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-          </j.1:excludeEntity>
-        </j.3:linkedAuthor>
-        <rdfs:label>Authorship for McCurry, Kenneth R</rdfs:label>
-        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <j.3:Title>Rates and risk factors for nonadherence to the medical regimen after adult solid organ transplantation.</j.3:Title>
+        <j.3:freetextKeyword>Treatment Outcome</j.3:freetextKeyword>
         <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-      </j.3:DependentResource>
-    </j.3:informationResourceInAuthorship>
-    <j.3:freetextKeyword>Health Status</j.3:freetextKeyword>
-    <j.3:freetextKeyword>Problem Solving</j.3:freetextKeyword>
-    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#InformationResource"/>
-    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <j.3:freetextKeyword>Adult</j.3:freetextKeyword>
+        <j.2:pageStart>858</j.2:pageStart>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1552956856">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >7</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2007828707"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1306099111">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1552956856"/>
+                <j.3:middleName>E</j.3:middleName>
+                <j.4:firstName>Galen</j.4:firstName>
+                <j.4:lastName>Switzer</j.4:lastName>
+                <rdfs:label>Switzer, Galen E</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for Switzer, Galen E</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1664277307">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >3</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2007828707"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n961375662">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1664277307"/>
+                <j.4:firstName>Annette</j.4:firstName>
+                <j.4:lastName>De Vito Dabbs</j.4:lastName>
+                <rdfs:label>De Vito Dabbs, Annette</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for De Vito Dabbs, Annette</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <j.2:doi>10.1097/01.tp.0000258599.65257.a6</j.2:doi>
+        <j.2:abstract>Despite the impact of medical regimen nonadherence on health outcomes after organ transplantation, there is mixed and conflicting evidence regarding the prevalence and predictors of posttransplant nonadherence. Clinicians require precise information on nonadherence rates in order to evaluate patients' risks for this problem.A total of 147 studies of kidney, heart, liver, pancreas/kidney-pancreas, or lung/heart-lung recipients published between 1981 and 2005 were included in a meta-analysis. Average nonadherence rates were calculated for 10 areas of the medical regimen. Correlations between nonadherence and patient psychosocial risk factors were examined.Across all types of transplantation, average nonadherence rates ranged from 1 to 4 cases per 100 patients per year (PPY) for substance use (tobacco, alcohol, illicit drugs), to 19 to 25 cases per 100 PPY for nonadherence to immunosuppressants, diet, exercise, and other healthcare requirements. Rates varied significantly by transplant type in two areas: immunosuppressant nonadherence was highest in kidney recipients (36 cases per 100 PPY vs. 7 to 15 cases in other recipients). Failure to exercise was highest in heart recipients (34 cases per 100 PPY vs. 9 to 22 cases in other recipients). Demographics, social support, and perceived health showed little correlation with nonadherence. Pretransplant substance use predicted posttransplant use.The estimated nonadherence rates, overall and by transplant type, allow clinicians to gauge patient risk and target resources accordingly. Nonadherence rates in some areas--including immunosuppressant use--appear unacceptably high. Weak correlations of most patient psychosocial factors with nonadherence suggest that attention should focus on other classes of variables (e.g., provider-related and systems-level factors), which may be more influential.</j.2:abstract>
+        <j.3:freetextKeyword>Patient Selection</j.3:freetextKeyword>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1094716596">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >8</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2007828707"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n438502691">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1094716596"/>
+                <j.4:firstName>Rachelle</j.4:firstName>
+                <j.4:lastName>Zomak</j.4:lastName>
+                <rdfs:label>Zomak, Rachelle</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for Zomak, Rachelle</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <j.3:freetextKeyword>Organ Transplantation</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Retrospective Studies</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Humans</j.3:freetextKeyword>
+        <j.3:dateTimeValue>
+          <j.3:DateTimeValue rdf:about="http://vivo.health.unm.edu/individual/n879486663">
+            <j.3:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2007-04-01T00:00:00</j.3:dateTime>
+            <j.3:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthPrecision"/>
+          </j.3:DateTimeValue>
+        </j.3:dateTimeValue>
+        <j.3:informationResourceInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1027701411"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#InformationResource"/>
+      </j.2:Document>
+    </j.3:linkedInformationResource>
+    <j.3:linkedAuthor>
+      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1756662284">
+        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1027701411"/>
+        <j.3:middleName>F</j.3:middleName>
+        <j.4:firstName>Andrea</j.4:firstName>
+        <j.4:lastName>DiMartini</j.4:lastName>
+        <rdfs:label>DiMartini, Andrea F</rdfs:label>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+      </j.1:excludeEntity>
+    </j.3:linkedAuthor>
+    <rdfs:label>Authorship for DiMartini, Andrea F</rdfs:label>
+    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+  </j.3:DependentResource>
+  <j.0:Flag1Value1Thing rdf:about="http://vivo.health.unm.edu/individual/n562494616">
     <j.3:hasPublicationVenue>
-      <j.2:Journal rdf:about="http://vivo.health.unm.edu/individual/n397991054">
-        <j.3:publicationVenueFor rdf:resource="http://vivo.health.unm.edu/individual/n1840546625"/>
-        <j.2:issn>1526-9248</j.2:issn>
-        <j.3:Title>Progress in transplantation (Aliso Viejo, Calif.)</j.3:Title>
-        <rdfs:label>Progress in transplantation (Aliso Viejo, Calif.)</rdfs:label>
+      <j.2:Journal rdf:about="http://vivo.health.unm.edu/individual/n532122914">
+        <j.3:publicationVenueFor rdf:resource="http://vivo.health.unm.edu/individual/n562494616"/>
+        <j.3:publicationVenueFor>
+          <j.2:AcademicArticle rdf:about="http://vivo.health.unm.edu/individual/n2142424944">
+            <j.3:freetextKeyword>Depressive Disorder</j.3:freetextKeyword>
+            <j.2:pageStart>1065</j.2:pageStart>
+            <j.3:informationResourceInAuthorship>
+              <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1439517996">
+                <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                >5</j.3:authorRank>
+                <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2142424944"/>
+                <j.3:linkedAuthor>
+                  <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n2109020649">
+                    <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1439517996"/>
+                    <j.3:middleName>C</j.3:middleName>
+                    <j.4:firstName>Herbert</j.4:firstName>
+                    <j.4:lastName>Schulberg</j.4:lastName>
+                    <rdfs:label>Schulberg, Herbert C</rdfs:label>
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.1:excludeEntity>
+                </j.3:linkedAuthor>
+                <rdfs:label>Authorship for Schulberg, Herbert C</rdfs:label>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.3:DependentResource>
+            </j.3:informationResourceInAuthorship>
+            <j.3:freetextKeyword>Cohort Studies</j.3:freetextKeyword>
+            <j.3:freetextKeyword>Heart Transplantation</j.3:freetextKeyword>
+            <j.3:freetextKeyword>Caregivers</j.3:freetextKeyword>
+            <j.3:dateTimeValue>
+              <j.3:DateTimeValue rdf:about="http://vivo.health.unm.edu/individual/n132674951">
+                <j.3:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+                >2004-08-01T00:00:00</j.3:dateTime>
+                <j.3:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthPrecision"/>
+              </j.3:DateTimeValue>
+            </j.3:dateTimeValue>
+            <j.2:volume>34</j.2:volume>
+            <j.3:freetextKeyword>Risk Factors</j.3:freetextKeyword>
+            <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+            <j.3:freetextKeyword>Family Health</j.3:freetextKeyword>
+            <j.3:informationResourceInAuthorship>
+              <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1157831468">
+                <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                >1</j.3:authorRank>
+                <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2142424944"/>
+                <j.3:linkedAuthor>
+                  <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1932206955">
+                    <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1157831468"/>
+                    <j.3:middleName>Amanda</j.3:middleName>
+                    <j.4:firstName>Mary</j.4:firstName>
+                    <j.4:lastName>Dew</j.4:lastName>
+                    <rdfs:label>Dew, Mary Amanda</rdfs:label>
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.1:excludeEntity>
+                </j.3:linkedAuthor>
+                <rdfs:label>Authorship for Dew, Mary Amanda</rdfs:label>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.3:DependentResource>
+            </j.3:informationResourceInAuthorship>
+            <j.3:Title>Onset, timing and risk for depression and anxiety in family caregivers to heart transplant recipients.</j.3:Title>
+            <j.3:informationResourceInAuthorship>
+              <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1227848648">
+                <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                >2</j.3:authorRank>
+                <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2142424944"/>
+                <j.3:linkedAuthor>
+                  <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1768163507">
+                    <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1227848648"/>
+                    <j.4:firstName>Larissa</j.4:firstName>
+                    <j.4:lastName>Myaskovsky</j.4:lastName>
+                    <rdfs:label>Myaskovsky, Larissa</rdfs:label>
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.1:excludeEntity>
+                </j.3:linkedAuthor>
+                <rdfs:label>Authorship for Myaskovsky, Larissa</rdfs:label>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.3:DependentResource>
+            </j.3:informationResourceInAuthorship>
+            <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+            <j.3:freetextKeyword>Employment</j.3:freetextKeyword>
+            <j.3:freetextKeyword>Male</j.3:freetextKeyword>
+            <j.3:informationResourceInAuthorship>
+              <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1063402998">
+                <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                >3</j.3:authorRank>
+                <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2142424944"/>
+                <j.3:linkedAuthor>
+                  <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n864871800">
+                    <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1063402998"/>
+                    <j.3:middleName>F</j.3:middleName>
+                    <j.4:firstName>Andrea</j.4:firstName>
+                    <j.4:lastName>DiMartini</j.4:lastName>
+                    <rdfs:label>DiMartini, Andrea F</rdfs:label>
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.1:excludeEntity>
+                </j.3:linkedAuthor>
+                <rdfs:label>Authorship for DiMartini, Andrea F</rdfs:label>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.3:DependentResource>
+            </j.3:informationResourceInAuthorship>
+            <j.2:pageEnd>1082</j.2:pageEnd>
+            <j.2:number>6</j.2:number>
+            <j.3:freetextKeyword>Anxiety Disorders</j.3:freetextKeyword>
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#InformationResource"/>
+            <j.3:freetextKeyword>Middle Aged</j.3:freetextKeyword>
+            <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+            <rdfs:label>Onset, timing and risk for depression and anxiety in family caregivers to heart transplant recipients.</rdfs:label>
+            <j.3:freetextKeyword>Humans</j.3:freetextKeyword>
+            <j.2:abstract>Family members adopt key caregiving roles in the maintenance of transplant recipients' health. While the bulk of the caregiving literature suggests that rates of psychiatric disorder should be high in these caregivers, the potential benefits of transplantation may instead lead to less distress than in other caregiving situations. We examined prevalence and risk factors for depressive and anxiety-related disorders in caregivers throughout 3 years after their family member's heart transplant.A total of 190 caregivers (97% of eligible respondents) were enrolled. They received psychiatric and psychosocial evaluations at 2, 7, 12 and 36 months post-transplant. Survival analysis determined cumulative rates of psychiatric disorders and the impact of potential risk factors.Rates of depressive and anxiety-related disorders met or exceeded other caregiver populations' rates. By 3 years post-transplant, cumulative onset rates were: Major Depressive Disorder (MDD), 31.6%, Adjustment disorders, 35.4% (29.4 % with anxious mood); Post-Traumatic Stress Disorder related to the transplant (PTSD-T), 22.5%, Generalized Anxiety Disorder, 7.3%, and any assessed disorder, 56.3%. PTSD-T occurred primarily during the first year post-transplant. Other disorders' rates increased over the entire study period. Risk for disorder was elevated by positive lifetime history of psychiatric disorder, greater post-transplant caregiving responsibilities, and a poorer relationship with the patient. Risk for MDD was further increased by caregiver unemployment, and risk for anxiety disorders was further increased by younger age, low sense of personal mastery, and high use of avoidance coping strategies.Transplantation is associated with costs and benefits for not only patients but family caregivers. Caregivers' risk for psychiatric illness should be considered when developing interventions to promote families' long-term adjustment to the transplant process.</j.2:abstract>
+            <j.3:freetextKeyword>Stress Disorders, Post-Traumatic</j.3:freetextKeyword>
+            <j.3:hasPublicationVenue rdf:resource="http://vivo.health.unm.edu/individual/n532122914"/>
+            <j.3:informationResourceInAuthorship>
+              <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n189886375">
+                <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                >6</j.3:authorRank>
+                <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2142424944"/>
+                <j.3:linkedAuthor>
+                  <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1509879904">
+                    <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n189886375"/>
+                    <j.3:middleName>L</j.3:middleName>
+                    <j.4:firstName>Robert</j.4:firstName>
+                    <j.4:lastName>Kormos</j.4:lastName>
+                    <rdfs:label>Kormos, Robert L</rdfs:label>
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.1:excludeEntity>
+                </j.3:linkedAuthor>
+                <rdfs:label>Authorship for Kormos, Robert L</rdfs:label>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.3:DependentResource>
+            </j.3:informationResourceInAuthorship>
+            <j.3:freetextKeyword>Prevalence</j.3:freetextKeyword>
+            <j.2:pmid>15554577</j.2:pmid>
+            <j.3:freetextKeyword>Female</j.3:freetextKeyword>
+            <j.3:informationResourceInAuthorship>
+              <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n260831532">
+                <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+                >4</j.3:authorRank>
+                <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n2142424944"/>
+                <j.3:linkedAuthor>
+                  <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1685786515">
+                    <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n260831532"/>
+                    <j.3:middleName>E</j.3:middleName>
+                    <j.4:firstName>Galen</j.4:firstName>
+                    <j.4:lastName>Switzer</j.4:lastName>
+                    <rdfs:label>Switzer, Galen E</rdfs:label>
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+                  </j.1:excludeEntity>
+                </j.3:linkedAuthor>
+                <rdfs:label>Authorship for Switzer, Galen E</rdfs:label>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+                <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.3:DependentResource>
+            </j.3:informationResourceInAuthorship>
+          </j.2:AcademicArticle>
+        </j.3:publicationVenueFor>
+        <j.2:issn>0033-2917</j.2:issn>
+        <j.3:Title>Psychological medicine</j.3:Title>
+        <rdfs:label>Psychological medicine</rdfs:label>
         <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
       </j.2:Journal>
     </j.3:hasPublicationVenue>
+    <j.3:freetextKeyword>Middle Aged</j.3:freetextKeyword>
     <j.3:freetextKeyword>Humans</j.3:freetextKeyword>
-    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
-    <j.3:freetextKeyword>Regression Analysis</j.3:freetextKeyword>
     <j.3:informationResourceInAuthorship>
-      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n385127310">
+      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n202892547">
         <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
         >3</j.3:authorRank>
-        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1840546625"/>
+        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n562494616"/>
         <j.3:linkedAuthor>
-          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1986217491">
+          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n788631419">
+            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n202892547"/>
             <j.3:middleName>E</j.3:middleName>
-            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n385127310"/>
             <j.4:firstName>Galen</j.4:firstName>
             <j.4:lastName>Switzer</j.4:lastName>
             <rdfs:label>Switzer, Galen E</rdfs:label>
@@ -229,19 +1147,122 @@
         <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
       </j.3:DependentResource>
     </j.3:informationResourceInAuthorship>
-    <j.2:abstract>Lung transplant candidates face numerous health-related stressors. Although previous work has described the range of coping strategies candidates may use, whether those strategies are related to quality of life in physical functioning, emotional, and social domains has rarely been examined.Adult lung transplant candidates (N = 128) participated in semistructured interviews that included questions regarding global and domain-specific quality of life and a multidimensional assessment of coping with health-related problems. Demographic characteristics, health status, and other psychosocial variables were also assessed, and their effects were examined and controlled in multivariate analyses of the coping-quality-of-life relationship.Respondents were most likely to use active, acceptance, and support-seeking strategies to cope with health problems. Self-blame or avoidance were rarely used. Although used least often, avoidant coping was the most strongly and consistently related to quality of life. With demographic and psychosocial variables controlled, higher avoidant coping remained associated with significantly poorer global quality of life, bodily pain, difficulty with daily work or activities as a function of emotional problems, and depressive symptomatology. Avoidant coping accentuated the association of poor health status and lower quality of life. Among respondents with lower health status, using more avoidant coping was associated with greater difficulty functioning in daily activities as a result of emotional problems. Those with higher health status had less difficulty functioning in daily activities as a result of emotional problems.Transplant team members are encouraged to be aware of and help patients refrain from using avoidant coping strategies.</j.2:abstract>
-    <j.3:freetextKeyword>Cross-Sectional Studies</j.3:freetextKeyword>
-    <j.3:freetextKeyword>Pennsylvania</j.3:freetextKeyword>
-    <j.2:pageEnd>192</j.2:pageEnd>
-    <j.3:freetextKeyword>Stress, Psychological</j.3:freetextKeyword>
+    <j.3:freetextKeyword>Cluster Analysis</j.3:freetextKeyword>
+    <j.3:freetextKeyword>Time Factors</j.3:freetextKeyword>
+    <j.3:freetextKeyword>Forecasting</j.3:freetextKeyword>
+    <j.2:abstract>Like individuals exposed to other life stressors, patients undergoing organ transplantation typically show elevated psychological distress initially post-transplant, with improvement thereafter. However, this 'average' pattern may conceal subgroups with differing profiles of psychological response. We sought to identify unique temporal distress profiles, and their predictors, after heart transplantation.A total of 156 transplant recipients (refusal rate, 6%) were enrolled and assessed at 2, 7, 12, 36, and 42 months post-transplant. Cluster analysis was used to identify distinct distress profiles over time. Multivariate analyses examined health and psychosocial predictors of the profiles.Five groups were identified, with either: (a) low distress at all time-points (45% of the sample), (b) high, clinically significant distress at all times (21%), (c) high distress over several years with low distress only at final assessment (12%), (d) high distress during the first several months with decline thereafter (6%), or (e) fluctuating distress levels (16%). Patients showing any distress (versus none) were more likely to have a pre-transplant psychiatric history, poorer social supports and more physical impairment early post-transplant, and continued physical impairment over time. Among distressed patients, those with persistent (versus declining) distress were most likely to be female, waited more briefly for transplant, and were most physically impaired early post-transplant. While persistently distressed patients had better social supports early post-transplant, these supports subsequently worsened.Individuals differ in whether and when psychological distress abates after heart transplantation. Findings regarding distress profiles and their predictors may inform the design of interventions to address each transplant recipient's unique psychological needs.</j.2:abstract>
+    <j.2:volume>35</j.2:volume>
     <j.3:informationResourceInAuthorship>
-      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n2140343627">
+      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n645264563">
         <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
         >1</j.3:authorRank>
-        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1840546625"/>
+        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n562494616"/>
         <j.3:linkedAuthor>
-          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n811242396">
-            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n2140343627"/>
+          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n937048177">
+            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n645264563"/>
+            <j.3:middleName>Amanda</j.3:middleName>
+            <j.4:firstName>Mary</j.4:firstName>
+            <j.4:lastName>Dew</j.4:lastName>
+            <rdfs:label>Dew, Mary Amanda</rdfs:label>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.1:excludeEntity>
+        </j.3:linkedAuthor>
+        <rdfs:label>Authorship for Dew, Mary Amanda</rdfs:label>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+      </j.3:DependentResource>
+    </j.3:informationResourceInAuthorship>
+    <j.3:freetextKeyword>Follow-Up Studies</j.3:freetextKeyword>
+    <j.3:Title>Profiles and predictors of the course of psychological distress across four years after heart transplantation.</j.3:Title>
+    <j.3:informationResourceInAuthorship>
+      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1934924211">
+        <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >4</j.3:authorRank>
+        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n562494616"/>
+        <j.3:linkedAuthor>
+          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1278078844">
+            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1934924211"/>
+            <j.3:middleName>F</j.3:middleName>
+            <j.4:firstName>Andrea</j.4:firstName>
+            <j.4:lastName>DiMartini</j.4:lastName>
+            <rdfs:label>DiMartini, Andrea F</rdfs:label>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.1:excludeEntity>
+        </j.3:linkedAuthor>
+        <rdfs:label>Authorship for DiMartini, Andrea F</rdfs:label>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+      </j.3:DependentResource>
+    </j.3:informationResourceInAuthorship>
+    <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+    <j.3:freetextKeyword>Male</j.3:freetextKeyword>
+    <j.3:informationResourceInAuthorship>
+      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1951044042">
+        <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >5</j.3:authorRank>
+        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n562494616"/>
+        <j.3:linkedAuthor>
+          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n192781744">
+            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1951044042"/>
+            <j.3:middleName>C</j.3:middleName>
+            <j.4:firstName>Herbert</j.4:firstName>
+            <j.4:lastName>Schulberg</j.4:lastName>
+            <rdfs:label>Schulberg, Herbert C</rdfs:label>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.1:excludeEntity>
+        </j.3:linkedAuthor>
+        <rdfs:label>Authorship for Schulberg, Herbert C</rdfs:label>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+      </j.3:DependentResource>
+    </j.3:informationResourceInAuthorship>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+    <j.3:freetextKeyword>Heart Transplantation</j.3:freetextKeyword>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    <j.3:freetextKeyword>Depression</j.3:freetextKeyword>
+    <rdfs:label>Profiles and predictors of the course of psychological distress across four years after heart transplantation.</rdfs:label>
+    <j.2:pageEnd>1227</j.2:pageEnd>
+    <j.3:freetextKeyword>Female</j.3:freetextKeyword>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#InformationResource"/>
+    <j.3:informationResourceInAuthorship>
+      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n720292271">
+        <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >6</j.3:authorRank>
+        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n562494616"/>
+        <j.3:linkedAuthor>
+          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n734708961">
+            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n720292271"/>
+            <j.3:middleName>L</j.3:middleName>
+            <j.4:firstName>Robert</j.4:firstName>
+            <j.4:lastName>Kormos</j.4:lastName>
+            <rdfs:label>Kormos, Robert L</rdfs:label>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.1:excludeEntity>
+        </j.3:linkedAuthor>
+        <rdfs:label>Authorship for Kormos, Robert L</rdfs:label>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+      </j.3:DependentResource>
+    </j.3:informationResourceInAuthorship>
+    <j.2:pmid>16116947</j.2:pmid>
+    <j.2:number>8</j.2:number>
+    <j.3:informationResourceInAuthorship>
+      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1283660425">
+        <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >2</j.3:authorRank>
+        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n562494616"/>
+        <j.3:linkedAuthor>
+          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1782826759">
+            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1283660425"/>
             <j.4:firstName>Larissa</j.4:firstName>
             <j.4:lastName>Myaskovsky</j.4:lastName>
             <rdfs:label>Myaskovsky, Larissa</rdfs:label>
@@ -255,5 +1276,476 @@
         <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
       </j.3:DependentResource>
     </j.3:informationResourceInAuthorship>
-  </j.2:Document>
+    <j.3:freetextKeyword>Adult</j.3:freetextKeyword>
+    <j.2:pageStart>1215</j.2:pageStart>
+    <j.3:dateTimeValue>
+      <j.3:DateTimeValue rdf:about="http://vivo.health.unm.edu/individual/n89397060">
+        <j.3:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2005-08-01T00:00:00</j.3:dateTime>
+        <j.3:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthPrecision"/>
+      </j.3:DateTimeValue>
+    </j.3:dateTimeValue>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </j.0:Flag1Value1Thing>
+  <owl:Thing rdf:about="http://vivo.health.unm.edu/individual/n304255575">
+    <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+    <j.2:volume>38</j.2:volume>
+    <j.3:freetextKeyword>Child</j.3:freetextKeyword>
+    <j.3:freetextKeyword>Athletic Injuries</j.3:freetextKeyword>
+    <rdfs:label>[Dental injuries in young athletes].</rdfs:label>
+    <j.3:hasPublicationVenue>
+      <j.2:Journal rdf:about="http://vivo.health.unm.edu/individual/n303135804">
+        <j.3:publicationVenueFor rdf:resource="http://vivo.health.unm.edu/individual/n304255575"/>
+        <j.2:issn>1293-8505</j.2:issn>
+        <j.3:Title>Revue de l'infirmiere</j.3:Title>
+        <rdfs:label>Revue de l'infirmiere</rdfs:label>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+      </j.2:Journal>
+    </j.3:hasPublicationVenue>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#InformationResource"/>
+    <j.3:Title>[Dental injuries in young athletes].</j.3:Title>
+    <j.3:informationResourceInAuthorship>
+      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n586747716">
+        <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >1</j.3:authorRank>
+        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n304255575"/>
+        <j.3:linkedAuthor>
+          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n513241583">
+            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n586747716"/>
+            <j.4:firstName>F</j.4:firstName>
+            <j.4:lastName>Verfaillie</j.4:lastName>
+            <rdfs:label>Verfaillie, F</rdfs:label>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.1:excludeEntity>
+        </j.3:linkedAuthor>
+        <rdfs:label>Authorship for Verfaillie, F</rdfs:label>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+      </j.3:DependentResource>
+    </j.3:informationResourceInAuthorship>
+    <j.2:pageStart>28</j.2:pageStart>
+    <j.2:pageEnd>31</j.2:pageEnd>
+    <j.3:freetextKeyword>Humans</j.3:freetextKeyword>
+    <j.3:freetextKeyword>Tooth Fractures</j.3:freetextKeyword>
+    <j.3:freetextKeyword>Maxillofacial Injuries</j.3:freetextKeyword>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <j.3:dateTimeValue>
+      <j.3:DateTimeValue rdf:about="http://vivo.health.unm.edu/individual/n961854934">
+        <j.3:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >1988-05-01T00:00:00</j.3:dateTime>
+        <j.3:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthPrecision"/>
+      </j.3:DateTimeValue>
+    </j.3:dateTimeValue>
+    <j.2:pmid>3387784</j.2:pmid>
+    <j.3:informationResourceInAuthorship>
+      <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n605189906">
+        <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >2</j.3:authorRank>
+        <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n304255575"/>
+        <j.3:linkedAuthor>
+          <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n2016368625">
+            <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n605189906"/>
+            <j.4:firstName>M</j.4:firstName>
+            <j.4:lastName>Bourry</j.4:lastName>
+            <rdfs:label>Bourry, M</rdfs:label>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.1:excludeEntity>
+        </j.3:linkedAuthor>
+        <rdfs:label>Authorship for Bourry, M</rdfs:label>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+      </j.3:DependentResource>
+    </j.3:informationResourceInAuthorship>
+    <j.2:abstract></j.2:abstract>
+    <j.2:number>10</j.2:number>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+  </owl:Thing>
+  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n290222514">
+    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >1</j.3:authorRank>
+    <j.3:linkedInformationResource>
+      <j.0:Flag1Value1Thing rdf:about="http://vivo.health.unm.edu/individual/n699874182">
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1850879126">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >2</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n699874182"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n2122785612">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1850879126"/>
+                <j.3:middleName>A</j.3:middleName>
+                <j.4:firstName>M</j.4:firstName>
+                <j.4:lastName>Dew</j.4:lastName>
+                <rdfs:label>Dew, M A</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for Dew, M A</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <j.3:freetextKeyword>Health</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Lung Transplantation</j.3:freetextKeyword>
+        <j.2:pageStart>1939</j.2:pageStart>
+        <j.2:doi>10.1111/j.1600-6143.2006.01395.x</j.2:doi>
+        <j.3:freetextKeyword>Time Factors</j.3:freetextKeyword>
+        <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+        <j.3:Title>Trajectories of change in quality of life in 12-month survivors of lung or heart transplant.</j.3:Title>
+        <j.3:freetextKeyword>Female</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Heart Transplantation</j.3:freetextKeyword>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n341874889">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >7</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n699874182"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n972079727">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n341874889"/>
+                <j.3:middleName>R</j.3:middleName>
+                <j.4:firstName>K</j.4:firstName>
+                <j.4:lastName>McCurry</j.4:lastName>
+                <rdfs:label>McCurry, K R</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for McCurry, K R</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <j.2:number>8</j.2:number>
+        <j.3:freetextKeyword>Male</j.3:freetextKeyword>
+        <rdfs:label>Trajectories of change in quality of life in 12-month survivors of lung or heart transplant.</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#InformationResource"/>
+        <j.3:freetextKeyword>Quality of Life</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Graft Survival</j.3:freetextKeyword>
+        <j.3:dateTimeValue>
+          <j.3:DateTimeValue rdf:about="http://vivo.health.unm.edu/individual/n2122691583">
+            <j.3:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2006-08-01T00:00:00</j.3:dateTime>
+            <j.3:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthPrecision"/>
+          </j.3:DateTimeValue>
+        </j.3:dateTimeValue>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n388453260">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >3</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n699874182"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n550388856">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n388453260"/>
+                <j.3:middleName>L</j.3:middleName>
+                <j.4:firstName>M</j.4:firstName>
+                <j.4:lastName>McNulty</j.4:lastName>
+                <rdfs:label>McNulty, M L</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for McNulty, M L</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <j.2:pageEnd>1947</j.2:pageEnd>
+        <j.3:freetextKeyword>Humans</j.3:freetextKeyword>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+        <j.2:pmid>16889548</j.2:pmid>
+        <j.3:informationResourceInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n290222514"/>
+        <j.2:volume>6</j.2:volume>
+        <j.2:abstract>Survival and functional outcomes for lung transplant recipients continue to lag behind those for heart recipients. Whether these poorer physical outcomes translate into poorer quality of life (QOL) for lung recipients relative to heart recipients is unknown. Lung versus heart transplant recipients' perceptions of QOL were longitudinally compared at three time-points across the first year posttransplant. Additionally, potentially important predictors of patient QOL were examined. Adult transplant recipients (N = 199) participated in semi-structured interviews that included measures of QOL, optimism, mastery, social support, religiosity and coping. Temporal patterns of QOL change were compared between lung and heart recipients who survived until 1 year posttransplant using mixed-model, hierarchical analysis of variance (ANOVA). Demographic and psychosocial predictors were examined with multiple regression analysis to identify the unique effects of each variable on QOL 1 year posttransplant. While heart recipients' QOL across several domains was higher shortly after transplant, lung patients' QOL improved and was equivalent to that of heart recipients by 1 year posttransplant. Greater optimism and support from friends predicted better QOL in physical, psychological and social domains. Conversely, avoidant coping strategies predicted poorer physical functioning. Thus, while clinical interventions designed to improve QOL posttransplant should be tailored to transplant recipients' initial psychosocial assets and liabilities, they need not be distinguished by transplant type.</j.2:abstract>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n344213160">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >4</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n699874182"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n6312637">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n344213160"/>
+                <j.3:middleName>E</j.3:middleName>
+                <j.4:firstName>G</j.4:firstName>
+                <j.4:lastName>Switzer</j.4:lastName>
+                <rdfs:label>Switzer, G E</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for Switzer, G E</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <j.3:freetextKeyword>Follow-Up Studies</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Treatment Outcome</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Surveys and Questionnaires</j.3:freetextKeyword>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+        <j.3:freetextKeyword>Middle Aged</j.3:freetextKeyword>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n395193577">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >5</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n699874182"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1594888456">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n395193577"/>
+                <j.3:middleName>F</j.3:middleName>
+                <j.4:firstName>A</j.4:firstName>
+                <j.4:lastName>DiMartini</j.4:lastName>
+                <rdfs:label>DiMartini, A F</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for DiMartini, A F</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <j.3:hasPublicationVenue>
+          <j.2:Journal rdf:about="http://vivo.health.unm.edu/individual/n759503557">
+            <j.3:publicationVenueFor rdf:resource="http://vivo.health.unm.edu/individual/n699874182"/>
+            <j.2:issn>1600-6135</j.2:issn>
+            <j.3:Title>American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons</j.3:Title>
+            <rdfs:label>American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.2:Journal>
+        </j.3:hasPublicationVenue>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n78310148">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >6</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n699874182"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1833345360">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n78310148"/>
+                <j.3:middleName>L</j.3:middleName>
+                <j.4:firstName>R</j.4:firstName>
+                <j.4:lastName>Kormos</j.4:lastName>
+                <rdfs:label>Kormos, R L</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for Kormos, R L</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+      </j.0:Flag1Value1Thing>
+    </j.3:linkedInformationResource>
+    <j.3:linkedAuthor>
+      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n2045768095">
+        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n290222514"/>
+        <j.4:firstName>L</j.4:firstName>
+        <j.4:lastName>Myaskovsky</j.4:lastName>
+        <rdfs:label>Myaskovsky, L</rdfs:label>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+      </j.1:excludeEntity>
+    </j.3:linkedAuthor>
+    <rdfs:label>Authorship for Myaskovsky, L</rdfs:label>
+    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+  </j.3:DependentResource>
+  <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1220074149">
+    <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >1</j.3:authorRank>
+    <j.3:linkedInformationResource>
+      <j.3:InformationResource rdf:about="http://vivo.health.unm.edu/individual/n1007093114">
+        <j.3:freetextKeyword>Interpersonal Relations</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Lung Diseases</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Female</j.3:freetextKeyword>
+        <j.2:pmid>15748679</j.2:pmid>
+        <rdfs:label>Quality of life and coping strategies among lung transplant candidates and their family caregivers.</rdfs:label>
+        <j.3:freetextKeyword>Lung Transplantation</j.3:freetextKeyword>
+        <j.3:hasPublicationVenue>
+          <j.2:Journal rdf:about="http://vivo.health.unm.edu/individual/n612642542">
+            <j.3:publicationVenueFor rdf:resource="http://vivo.health.unm.edu/individual/n1007093114"/>
+            <j.2:issn>0277-9536</j.2:issn>
+            <j.3:Title>Social science &amp; medicine (1982)</j.3:Title>
+            <rdfs:label>Social science &amp; medicine (1982)</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.2:Journal>
+        </j.3:hasPublicationVenue>
+        <j.3:freetextKeyword>Adaptation, Psychological</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Adult</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Family Relations</j.3:freetextKeyword>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1766855092">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >3</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1007093114"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n664474322">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1766855092"/>
+                <j.3:middleName>E</j.3:middleName>
+                <j.4:firstName>Galen</j.4:firstName>
+                <j.4:lastName>Switzer</j.4:lastName>
+                <rdfs:label>Switzer, Galen E</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for Switzer, Galen E</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <j.3:informationResourceInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1220074149"/>
+        <j.3:freetextKeyword>Male</j.3:freetextKeyword>
+        <j.2:volume>60</j.2:volume>
+        <j.2:number>10</j.2:number>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+        <j.2:pageStart>2321</j.2:pageStart>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1624853300">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >4</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1007093114"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1262214366">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1624853300"/>
+                <j.3:middleName>L</j.3:middleName>
+                <j.4:firstName>Mary</j.4:firstName>
+                <j.4:lastName>McNulty</j.4:lastName>
+                <rdfs:label>McNulty, Mary L</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for McNulty, Mary L</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+        <j.2:pageEnd>2332</j.2:pageEnd>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n310888294">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >6</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1007093114"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n706227922">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n310888294"/>
+                <j.3:middleName>R</j.3:middleName>
+                <j.4:firstName>Kenneth</j.4:firstName>
+                <j.4:lastName>McCurry</j.4:lastName>
+                <rdfs:label>McCurry, Kenneth R</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for McCurry, Kenneth R</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <j.3:freetextKeyword>Adolescent</j.3:freetextKeyword>
+        <j.2:abstract>Although numerous studies have examined coping strategies and quality of life (QOL) among patients with chronic diseases and their family caregivers, no studies have examined the reciprocal effects of patient and caregiver coping strategies on their dyad partner's QOL. Because most people who cope with stressful health experiences do so within the context of interpersonal relationships, it is important to understand the ways in which the two partners' coping strategies may reciprocally affect each other's QOL. Adult lung transplant candidates and their caregivers (N=114 pairs) participated in semi-structured interviews that included measures of QOL and coping with patients' health-related problems. Multivariate, canonical correlation analyses were performed to examine unique patterns of associations between coping and QOL in patient-caregiver dyads. Better patient QOL, across multiple domains, was associated with better caregiver QOL. Multiple elements of patients' coping, including greater use of active coping and emotionally oriented coping were related to generally poorer patient QOL in psychosocial and physical domains. Similarly, caregivers who used more emotionally oriented coping had poorer QOL. There was no statistically reliable relationship between either (a) patient and caregiver use of coping strategies, or (b) caregiver coping and patient QOL. However, patients' coping strategies were important correlates of caregivers' QOL. These findings belie common clinical beliefs that family members' coping responses to patients' health are likely to affect patient well-being. Instead, patients' coping and QOL may be critical for understanding caregiver well-being, especially in the current era in which caregivers are assuming increased responsibility for providing patient care.</j.2:abstract>
+        <j.3:freetextKeyword>Sickness Impact Profile</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Chronic Disease</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Waiting Lists</j.3:freetextKeyword>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1556239443">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >2</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1007093114"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1375582249">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1556239443"/>
+                <j.3:middleName>Amanda</j.3:middleName>
+                <j.4:firstName>Mary</j.4:firstName>
+                <j.4:lastName>Dew</j.4:lastName>
+                <rdfs:label>Dew, Mary Amanda</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for Dew, Mary Amanda</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+        <j.3:Title>Quality of life and coping strategies among lung transplant candidates and their family caregivers.</j.3:Title>
+        <j.3:freetextKeyword>Interviews as Topic</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Pennsylvania</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Quality of Life</j.3:freetextKeyword>
+        <j.3:dateTimeValue>
+          <j.3:DateTimeValue rdf:about="http://vivo.health.unm.edu/individual/n1433533039">
+            <j.3:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2005-05-01T00:00:00</j.3:dateTime>
+            <j.3:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthPrecision"/>
+          </j.3:DateTimeValue>
+        </j.3:dateTimeValue>
+        <j.3:freetextKeyword>Humans</j.3:freetextKeyword>
+        <j.3:freetextKeyword>Caregivers</j.3:freetextKeyword>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <j.3:freetextKeyword>Aged</j.3:freetextKeyword>
+        <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+        <j.3:informationResourceInAuthorship>
+          <j.3:DependentResource rdf:about="http://vivo.health.unm.edu/individual/n1961186462">
+            <j.3:authorRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >5</j.3:authorRank>
+            <j.3:linkedInformationResource rdf:resource="http://vivo.health.unm.edu/individual/n1007093114"/>
+            <j.3:linkedAuthor>
+              <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n1828263204">
+                <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1961186462"/>
+                <j.3:middleName>F</j.3:middleName>
+                <j.4:firstName>Andrea</j.4:firstName>
+                <j.4:lastName>DiMartini</j.4:lastName>
+                <rdfs:label>DiMartini, Andrea F</rdfs:label>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+              </j.1:excludeEntity>
+            </j.3:linkedAuthor>
+            <rdfs:label>Authorship for DiMartini, Andrea F</rdfs:label>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+            <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+          </j.3:DependentResource>
+        </j.3:informationResourceInAuthorship>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+        <j.3:freetextKeyword>Middle Aged</j.3:freetextKeyword>
+        <j.2:doi>10.1016/j.socscimed.2004.10.001</j.2:doi>
+      </j.3:InformationResource>
+    </j.3:linkedInformationResource>
+    <j.3:linkedAuthor>
+      <j.1:excludeEntity rdf:about="http://vivo.health.unm.edu/individual/n794717029">
+        <j.3:authorInAuthorship rdf:resource="http://vivo.health.unm.edu/individual/n1220074149"/>
+        <j.4:firstName>Larissa</j.4:firstName>
+        <j.4:lastName>Myaskovsky</j.4:lastName>
+        <rdfs:label>Myaskovsky, Larissa</rdfs:label>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+      </j.1:excludeEntity>
+    </j.3:linkedAuthor>
+    <rdfs:label>Authorship for Myaskovsky, Larissa</rdfs:label>
+    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#DependentResource"/>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+    <rdf:type rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#Flag1Value1Thing"/>
+  </j.3:DependentResource>
 </rdf:RDF>

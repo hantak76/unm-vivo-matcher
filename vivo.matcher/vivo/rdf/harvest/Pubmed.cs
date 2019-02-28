@@ -10,6 +10,7 @@ namespace vivo.rdf.harvest
 	public class Pubmed
 	{
 		protected string VCardPrefix = @"vcard";
+
 		
 		protected IGraph Graph { get; set; }
 
@@ -17,7 +18,10 @@ namespace vivo.rdf.harvest
 		{
 			Graph = g;
 
-			// Add the vcard
+			// Add the vcard namespace
+			// Add the arg namespac
+			Graph.NamespaceMap.AddNamespace(@"arg", new Uri(@"http://purl.obolibrary.org/obo/"));
+			Graph.NamespaceMap.AddNamespace(@"vcard", new Uri(@"http://www.w3.org/2006/vcard/ns#"));
 		}
 
 		protected IEnumerable<Triple> DocumentTriples
@@ -48,25 +52,54 @@ namespace vivo.rdf.harvest
 			var typePredicate = Graph.CreateUriNode(@"rdf:type");
 			var personObject = Graph.CreateUriNode(@"j.4:Person");
 
+			var argHasContanctInfoPredicate = Graph.CreateUriNode(@"arg:ARG_2000028");
+			var argContactInfoForPredicate = Graph.CreateUriNode(@"arg:ARG_2000029");
+
+			var vCardIndividualType = Graph.CreateUriNode(@"vcard:Individual");
+			var vCardNameType = Graph.CreateUriNode(@"vcard:Name");
+
+			var vCardHasName = Graph.CreateUriNode(@"vcard:hasName");
+
+			var middleNamePredicate = Graph.CreateUriNode(@"j.3:middleName");
+			var firstNamePredicate = Graph.CreateUriNode(@"vcard:givenName");
+			var lastNamePredicate = Graph.CreateUriNode(@"vcard:familyName");
+
+			var firstNameFoafPredicate = Graph.CreateUriNode(@"j.4:firstName");
+			var lastNameFoafPredicate = Graph.CreateUriNode(@"j.4:lastName");
+
 			foreach (var triple in Graph.GetTriplesWithPredicateObject(typePredicate,personObject))
 			{
-				Console.WriteLine("Person = " + triple.Subject);
+				Console.WriteLine("Base = " + Graph.BaseUri);
 
-				var newUri = vivo.utility.Individual.GenerateIndividual();
+				var person = new Person(triple.Subject);
 
-				Console.WriteLine("New URI = " + newUri);
+				var vCardUri = Graph.CreateUriNode(new Uri(vivo.utility.Individual.GenerateIndividual()));
+				var nameUri = Graph.CreateUriNode(new Uri(vivo.utility.Individual.GenerateIndividual()));
 
-				// Make a vcard
+				// Make a vcar
+				additions.Add(new Triple(vCardUri, typePredicate, vCardIndividualType));
+
+				// has contact info, has contact info for
+				additions.Add(new Triple(triple.Subject, argHasContanctInfoPredicate, vCardUri));
+				additions.Add(new Triple(vCardUri, argContactInfoForPredicate, triple.Subject));
+
+				// Make the nam
+				additions.Add(new Triple(nameUri, typePredicate, vCardNameType));
+				additions.Add(new Triple(nameUri, firstNamePredicate, Graph.CreateLiteralNode(person.FirstName)));
+				if (person.MiddleName != null) {
+					additions.Add(new Triple(nameUri, middleNamePredicate, Graph.CreateLiteralNode(person.MiddleName)));
+				}
+				additions.Add(new Triple(nameUri, lastNamePredicate, Graph.CreateLiteralNode(person.LastName)));
+
+				// Connect the name 
+				additions.Add(new Triple(vCardUri, vCardHasName, nameUri));
+
+				// Removal
+				removals.AddRange(Graph.GetTriplesWithSubjectPredicate(triple.Subject, firstNameFoafPredicate));
+				removals.AddRange(Graph.GetTriplesWithSubjectPredicate(triple.Subject, lastNameFoafPredicate));
+				removals.AddRange(Graph.GetTriplesWithSubjectPredicate(triple.Subject, middleNamePredicate));
 
 			}
-			// Pull all the people a
-			// Need to move person info in
-
-
-			// Change vivo:linkedAuthor to vivo:relates
-			// Change vivo:authorInAuthorship to vivo:relatedBy
-			// Change vivo:linkedInfomrationResource to vivo:relates
-			// Change vivo:informationResourceInAuthorship to vivo:relatedBy
 
 
 			var relatedByPredicate = Graph.CreateUriNode(@"j.3:relatedBy");
@@ -103,7 +136,8 @@ namespace vivo.rdf.harvest
 			System.Console.WriteLine("Adding " + additions.Count + ", Removing " + removals.Count);
 
 			Graph.Assert(additions);
-			Graph.Retract(removals);    
+			Graph.Retract(removals);
+    
 		}
 
 		public void ExportRdf(string filename)

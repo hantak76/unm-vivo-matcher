@@ -57,7 +57,7 @@ namespace vivo
 
 			IncomingHarvest.UpdateToISF();
 
-			//IncomingHarvest.ExportNTriples(OutputHarvestFilename);
+			IncomingHarvest.ExportNTriples(OutputHarvestFilename);
 		}
 
 		public class ProgramOption
