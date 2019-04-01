@@ -30,9 +30,13 @@ namespace vivo
 				foreach (var authorship in document.Authorships) {
 
 					// If there isn't an author, skip
-					if (authorship.Author == null)
-					{
+					if (authorship.Author == null) {
 						Console.WriteLine("No author on authorship");
+						continue;
+					}
+
+					if (!authorship.Author.IsPerson) {
+						Console.WriteLine("Author is not a person - pmid: " + document.PMID);
 						continue;
 					}
 

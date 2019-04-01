@@ -12,6 +12,12 @@ namespace vivo.rdf.harvest
 		{
 		}
 
+		public string PMID {
+			get {
+				return GetObjLiteralValue(Node, CreateUriNode(@"j.2:pmid"));
+			}
+		}
+
 		public string Title {
 			get {
 				return GetObjLiteralValue(Node, CreateUriNode(@"j.3:Title"));

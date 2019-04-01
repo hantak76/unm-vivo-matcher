@@ -36,6 +36,13 @@ namespace vivo.rdf.harvest
 			}
 		}
 
+		public bool IsPerson {
+			get {
+				return Node.Graph.ContainsTriple(new Triple(Node, CreateUriNode(@"rdf:type"), CreateUriNode(@"j.4:Person")));
+			}
+		}
+
+
 		public Name Name {
 			get {
 				return new Name(FirstName, MiddleName, LastName);
