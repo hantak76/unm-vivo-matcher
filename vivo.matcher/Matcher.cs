@@ -61,7 +61,7 @@ namespace vivo
 
 			IncomingHarvest.UpdateToISF();
 
-			IncomingHarvest.ExportNTriples(OutputHarvestFilename);
+			IncomingHarvest.ExportRdf(OutputHarvestFilename);
 		}
 
 		public class ProgramOption
