@@ -27,8 +27,8 @@ namespace vivo.rdf.harvest
 		protected IEnumerable<Triple> DocumentTriples
 		{	
 			get {
-				IUriNode rdfType = Graph.CreateUriNode(@"rdf:type");
-				IUriNode document = Graph.CreateUriNode(@"j.2:Document");
+				IUriNode rdfType = Graph.CreateUriNode(QualifiedNames.Rdf.Type);
+				IUriNode document = Graph.CreateUriNode(QualifiedNames.Bibo.Document);
 
 				return Graph.GetTriplesWithPredicateObject(rdfType, document);
 			}
@@ -49,23 +49,23 @@ namespace vivo.rdf.harvest
 			List<Triple> additions = new List<Triple>();
 			List<Triple> removals = new List<Triple>();
 
-			var typePredicate = Graph.CreateUriNode(@"rdf:type");
-			var personObject = Graph.CreateUriNode(@"j.4:Person");
+			var typePredicate = Graph.CreateUriNode(QualifiedNames.Rdf.Type);
+			var personObject = Graph.CreateUriNode(QualifiedNames.Foaf.Person);
 
-			var argHasContanctInfoPredicate = Graph.CreateUriNode(@"arg:ARG_2000028");
-			var argContactInfoForPredicate = Graph.CreateUriNode(@"arg:ARG_2000029");
+			var argHasContanctInfoPredicate = Graph.CreateUriNode(QualifiedNames.Arg.HasContactInfo);
+			var argContactInfoForPredicate = Graph.CreateUriNode(QualifiedNames.Arg.ContactInfoFor);
 
-			var vCardIndividualType = Graph.CreateUriNode(@"vcard:Individual");
-			var vCardNameType = Graph.CreateUriNode(@"vcard:Name");
+			var vCardIndividualType = Graph.CreateUriNode(QualifiedNames.VCard.Individual);
+			var vCardNameType = Graph.CreateUriNode(QualifiedNames.VCard.Name);
 
-			var vCardHasName = Graph.CreateUriNode(@"vcard:hasName");
+			var vCardHasName = Graph.CreateUriNode(QualifiedNames.VCard.HasName);
 
-			var middleNamePredicate = Graph.CreateUriNode(@"j.3:middleName");
-			var firstNamePredicate = Graph.CreateUriNode(@"vcard:givenName");
-			var lastNamePredicate = Graph.CreateUriNode(@"vcard:familyName");
+			var middleNamePredicate = Graph.CreateUriNode(QualifiedNames.Core.MiddleName);
+			var firstNamePredicate = Graph.CreateUriNode(QualifiedNames.VCard.FirstName);
+			var lastNamePredicate = Graph.CreateUriNode(QualifiedNames.VCard.LastName);
 
-			var firstNameFoafPredicate = Graph.CreateUriNode(@"j.4:firstName");
-			var lastNameFoafPredicate = Graph.CreateUriNode(@"j.4:lastName");
+			var firstNameFoafPredicate = Graph.CreateUriNode(QualifiedNames.Foaf.FirstName);
+			var lastNameFoafPredicate = Graph.CreateUriNode(QualifiedNames.Foaf.LastName);
 
 			foreach (var triple in Graph.GetTriplesWithPredicateObject(typePredicate,personObject))
 			{
@@ -101,13 +101,12 @@ namespace vivo.rdf.harvest
 
 			}
 
-
-			var relatedByPredicate = Graph.CreateUriNode(@"j.3:relatedBy");
-			var relatesPredicate = Graph.CreateUriNode(@"j.3:relates");
-			var linkedAuthorPredicate = Graph.CreateUriNode(@"j.3:linkedAuthor");
-			var authorInAuthorshipPredicate = Graph.CreateUriNode("j.3:authorInAuthorship");
-			var linkedInformationResourcePredicate = Graph.CreateUriNode("j.3:linkedInformationResource");
-			var informationResourceinAuthorshipPredicate = Graph.CreateUriNode("j.3:informationResourceInAuthorshp");
+			var relatedByPredicate = Graph.CreateUriNode(QualifiedNames.Core.RelatedBy);
+			var relatesPredicate = Graph.CreateUriNode(QualifiedNames.Core.Relates);
+			var linkedAuthorPredicate = Graph.CreateUriNode(QualifiedNames.Core.LinkedAuthor);
+			var authorInAuthorshipPredicate = Graph.CreateUriNode(QualifiedNames.Core.AuthorInAuthorship);
+			var linkedInformationResourcePredicate = Graph.CreateUriNode(QualifiedNames.Core.LinkedInformationResource);
+			var informationResourceinAuthorshipPredicate = Graph.CreateUriNode(QualifiedNames.Core.InformationResourceInAuthorship);
 
 			foreach (var triple in Graph.GetTriplesWithPredicate(linkedAuthorPredicate))
 			{

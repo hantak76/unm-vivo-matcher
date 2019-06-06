@@ -20,25 +20,25 @@ namespace vivo.rdf.harvest
 
 		public string FirstName {
 			get {
-				return GetObjLiteralValue(Node, CreateUriNode(@"j.4:firstName"));
+				return GetObjLiteralValue(Node, CreateUriNode(QualifiedNames.Foaf.FirstName));
 			}
 		}
 
 		public string LastName {
 			get {
-				return GetObjLiteralValue(Node, CreateUriNode(@"j.4:lastName"));
+				return GetObjLiteralValue(Node, CreateUriNode(QualifiedNames.Foaf.LastName));
 			}
 		}
 
 		public string MiddleName {
 			get {
-				return GetObjLiteralValue(Node, CreateUriNode(@"j.3:middleName"));
+				return GetObjLiteralValue(Node, CreateUriNode(QualifiedNames.Core.MiddleName));
 			}
 		}
 
 		public bool IsPerson {
 			get {
-				return Node.Graph.ContainsTriple(new Triple(Node, CreateUriNode(@"rdf:type"), CreateUriNode(@"j.4:Person")));
+				return Node.Graph.ContainsTriple(new Triple(Node, CreateUriNode(QualifiedNames.Rdf.Type), CreateUriNode(QualifiedNames.Foaf.Person)));
 			}
 		}
 

@@ -14,22 +14,22 @@ namespace vivo.rdf.harvest
 
 		public string PMID {
 			get {
-				return GetObjLiteralValue(Node, CreateUriNode(@"j.2:pmid"));
+				return GetObjLiteralValue(Node, CreateUriNode(QualifiedNames.Bibo.Pmid));
 			}
 		}
 
 		public string Title {
 			get {
-				return GetObjLiteralValue(Node, CreateUriNode(@"j.3:Title"));
+				return GetObjLiteralValue(Node, CreateUriNode(QualifiedNames.Core.Title));
 			}
 		}
 
 		protected IEnumerable<Triple> AuthorshipTriples
 		{
 			get {
-				//IUriNode infoAuthorship = CreateUriNode(@"j.3:linkedInformationResource");
-				IUriNode linkedResource = CreateUriNode(@"j.3:linkedInformationResource");
+				IUriNode linkedResource = CreateUriNode(QualifiedNames.Core.LinkedInformationResource);
 				return Node.Graph.GetTriplesWithPredicateObject(linkedResource, Node);
+				//IUriNode infoAuthorship = CreateUriNode(QualifiedNames.Core.InformationResourceInAuthorship);
 				//return Node.Graph.GetTriplesWithSubjectPredicate(Node, infoAuthorship);
 			}
 		}

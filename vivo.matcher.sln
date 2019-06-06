@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{5A648EFD-B
 	ProjectSection(SolutionItems) = preProject
 		data\people.txt = data\people.txt
 		data\harvest.xml = data\harvest.xml
+		data\harvest-test.xml = data\harvest-test.xml
 	EndProjectSection
 EndProject
 Global

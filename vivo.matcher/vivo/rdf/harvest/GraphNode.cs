@@ -10,22 +10,15 @@ namespace vivo.rdf.harvest
 	{
 		protected INode Node { get; set; }
 
-		protected const string LinkedAuthorPredicateUri = @"j.3:linkedAuthor";
-
 		protected INode LinkedAuthorPredicate {
 			get {
-				return CreateUriNode(LinkedAuthorPredicateUri);
+				return CreateUriNode(QualifiedNames.Core.LinkedAuthor);
 			}
 		}
 
 		protected GraphNode(INode node)
 		{
 			Node = node;
-		}
-
-		protected IUriNode CreateUriNode(string qname)
-		{
-			return Node.Graph.CreateUriNode(qname);
 		}
 
 		protected IUriNode CreateUriNode(System.Uri uri)
@@ -59,7 +52,7 @@ namespace vivo.rdf.harvest
 
 		public string Label {
 			get {
-				return GetObjLiteralValue(Node, CreateUriNode(@"rdfs:label"));
+				return GetObjLiteralValue(Node, CreateUriNode(QualifiedNames.Rdf.Label));
 			}
 		}
 	}

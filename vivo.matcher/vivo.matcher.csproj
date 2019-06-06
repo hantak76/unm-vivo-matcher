@@ -78,6 +78,7 @@
     <Compile Include="vivo\profiles\ProfileMatch.cs" />
     <Compile Include="vivo\utility\Individual.cs" />
     <Compile Include="vivo\rdf\harvest\Person.cs" />
+    <Compile Include="vivo\QualifiedNames.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
