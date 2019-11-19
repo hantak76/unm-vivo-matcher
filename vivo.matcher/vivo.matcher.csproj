@@ -74,11 +74,11 @@
     <Compile Include="vivo\rdf\harvest\DocumentList.cs" />
     <Compile Include="vivo\rdf\harvest\AuthorshipList.cs" />
     <Compile Include="vivo\rdf\harvest\GraphNode.cs" />
-    <Compile Include="Matcher.cs" />
     <Compile Include="vivo\profiles\ProfileMatch.cs" />
     <Compile Include="vivo\utility\Individual.cs" />
     <Compile Include="vivo\rdf\harvest\Person.cs" />
     <Compile Include="vivo\QualifiedNames.cs" />
+    <Compile Include="vivo\Matcher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
